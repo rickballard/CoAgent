@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
+using System.Linq;
 using System.Runtime.Versioning;
 using System.Threading;
 using System.Windows.Forms;
@@ -14,21 +15,39 @@ namespace CoTray
         private static NotifyIcon? _tray;
         private static FileSystemWatcher? _watcher;
         private static System.Windows.Forms.Timer? _poll;
+
         private static string Home => Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
         private static string StatusDir => Path.Combine(Home, "CoTemps", "status");
         private static string CoCacheDir => Path.Combine(Home, "CoCache");
         private static string CoHeartbeatScript => Path.Combine(Home, "Documents", "WindowsPowerShell", "Modules", "CoBPOE", "CoHeartbeat.ps1");
-        private static DateTime _lastUpdate = DateTime.MinValue;
+
+        // Consent record (~/.CoAgent/consent.json)
+        private static string CoAgentDir => Path.Combine(Home, ".CoAgent");
+        private static string ConsentPath => Path.Combine(CoAgentDir, "consent.json");
 
         [STAThread]
-        static void Main()\n        {\n            // Consent gate: require explicit acceptance\n            var argsAccepted = Environment.GetCommandLineArgs().Any(a => string.Equals(a, "--accept", StringComparison.OrdinalIgnoreCase));\n            if (!(argsAccepted || HasAccepted()))\n            {\n                MessageBox.Show("CoTray runs only with explicit consent. Launch once with --accept or see docs/policy/AUTOSTART_AND_CONSENT.md", "CoAgent", MessageBoxButtons.OK, MessageBoxIcon.Information);\n                return;\n            }\n            if (argsAccepted) { RecordAcceptance(); }
+        static void Main()
+        {
+            // Hard gate: require explicit consent (once) or --accept on the command line
+            bool argsAccepted = Environment.GetCommandLineArgs().Any(a => string.Equals(a, "--accept", StringComparison.OrdinalIgnoreCase));
+            if (!(argsAccepted || HasAccepted()))
+            {
+                MessageBox.Show(
+                    "CoTray runs only with explicit consent.\nLaunch once with --accept or review docs/policy/AUTOSTART_AND_CONSENT.md",
+                    "CoAgent",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+                return;
+            }
+            if (argsAccepted) RecordAcceptance();
+
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
             Directory.CreateDirectory(StatusDir);
 
-            _tray = new NotifyIcon { Visible = true, Text = "CoAgent OE Monitor" };
+            _tray = new NotifyIcon { Visible = true, Text = "CoAgent OE Monitor", Icon = SystemIcons.Application };
 
             var menu = new ContextMenuStrip();
             menu.Items.Add("Rotate Session Now", null, (_, __) => TouchOk());
@@ -63,6 +82,24 @@ namespace CoTray
             Application.Run();
         }
 
+        private static bool HasAccepted()
+        {
+            try
+            {
+                if (!File.Exists(ConsentPath)) return false;
+                var json = File.ReadAllText(ConsentPath);
+                return json.Contains("\"accepted\":", StringComparison.OrdinalIgnoreCase)
+                    && json.Contains("true", StringComparison.OrdinalIgnoreCase);
+            }
+            catch { return false; }
+        }
+
+        private static void RecordAcceptance()
+        {
+            Directory.CreateDirectory(CoAgentDir);
+            File.WriteAllText(ConsentPath, "{ \"version\": 1, \"accepted\": true, \"autostart\": false }");
+        }
+
         private static readonly object _debounceLock = new();
         private static System.Threading.Timer? _debounceTimer;
         private static void DebouncedRefresh()
@@ -81,7 +118,6 @@ namespace CoTray
                 (string glyph, string label, Icon icon) = GetState();
                 _tray!.Icon = icon;
                 _tray.Text = $"OE:{label}";
-                _lastUpdate = DateTime.Now;
             }
             catch
             {
@@ -92,13 +128,13 @@ namespace CoTray
 
         private static (string glyph, string label, Icon icon) GetState()
         {
-            var ok   = File.Exists(Path.Combine(StatusDir, "SESSION_OK.txt"));
+            var ok = File.Exists(Path.Combine(StatusDir, "SESSION_OK.txt"));
             var warn = File.Exists(Path.Combine(StatusDir, "SESSION_WARN.txt"));
             var fail = File.Exists(Path.Combine(StatusDir, "SESSION_FAIL.txt"));
 
             if (fail) return ("✖", "FAIL", SystemIcons.Error);
             if (warn) return ("▲", "WARN", SystemIcons.Warning);
-            if (ok)   return ("✔", "OK",   SystemIcons.Information);
+            if (ok) return ("✔", "OK", SystemIcons.Information);
             return ("·", "IDLE", SystemIcons.Application);
         }
 
@@ -158,7 +194,7 @@ namespace CoTray
                     var candidate = Path.Combine(p.Trim(), name);
                     if (File.Exists(candidate)) return candidate;
                 }
-                catch {}
+                catch { }
             }
             return null;
         }
@@ -166,4 +202,3 @@ namespace CoTray
         private static string EscapeForShell(string s) => $"\"{s.Replace("\"", "`\"")}\"";
     }
 }
-
