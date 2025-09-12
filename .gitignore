@@ -8,3 +8,7 @@ docs/status/HEALTH.json
 docs/status/bpoe-log.ndjson
 **/bin/
 **/obj/
+
+_vendor/
+
+*.sln
