@@ -1,0 +1,52 @@
+# coagent.example.yaml
+ui:
+  shell: electron
+  panes:
+    - id: chat
+      plugin: chat-pane
+      provider: anthropic:claude-3-7
+    - id: exec
+      plugin: terminal-pane
+      runner: docker:pwsh
+    - id: ops
+      plugin: notes-pane
+
+llm:
+  providers:
+    - id: openai:gpt-4.1
+      type: openai
+      auth: env:OPENAI_API_KEY
+    - id: anthropic:claude-3-7
+      type: anthropic
+      auth: env:ANTHROPIC_API_KEY
+    - id: local:ollama/llama3.1
+      type: ollama
+      baseUrl: http://localhost:11434
+
+runners:
+  - id: docker:pwsh
+    type: docker
+    image: ghcr.io/powershell/powershell:7.4
+    cmd: ["pwsh","-NoLogo","-NoProfile","-Command","-"]
+  - id: docker:bash
+    type: docker
+    image: debian:bookworm-slim
+    cmd: ["bash","-l"]
+  - id: docker:python
+    type: docker
+    image: python:3.12-slim
+    cmd: ["python","-i","-q"]
+
+policy:
+  defaultDeny: true
+  roles:
+    operator:
+      allow:
+        runners: ["docker:*"]
+        providers: ["*"]
+      caps:
+        ttlSecondsMax: 3600
+        budgetUsdMax: 5
+bindings:
+  - subject: user:rick
+    roles: ["operator"]

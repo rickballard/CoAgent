@@ -1,70 +1,32 @@
-﻿# CoAgent
+# CoAgent — v1 Seed
 
-Vendor-independent **BPOE middleware**: mandatory offloading (CoCache/CoTemp), heartbeat/guard with [OE:<glyph>], and multi-AI adapter.
-**Scaffold only** — source-of-truth lives (for now) in:
-- **CoCivium** (policies/specs)
-- **CoModules** (PS7 tools & utilities)
-- **CoCache** (sidecar prototypes)
+**CoAgent** is a multi‑AI operator shell and protocol client. It renders split panes (Chat • Exec • Notes), speaks the **Gibberlink** protocol, and enforces **Congruence Guard** policies. This bundle seeds a minimal, repo‑ready structure with docs, config, and runnable stubs.
 
-Migration PRs will lift code/docs here; nothing moved yet.
+> Hidden agenda: nudge users toward **Civium congruence** while staying provider‑ and executor‑agnostic.
 
+## What’s here
+- `docs/v1_product_plan.md` — scope, milestones, and success metrics.
+- `docs/rfc-gibberlink-v0.1.md` — minimal event spec & guardrail hooks.
+- `docs/extension-beaxa-reptag-scripttag.md` — optional v1.1 extension plan.
+- `config/coagent.example.yaml` — provider/runner/pane config.
+- `control-plane/` — tiny HTTP/WS skeleton and JSON Schemas for events & APIs.
+- `electron/` — split-pane shell skeleton (Chat, Exec, Notes panes).
+- `docker/` — dev docker-compose (ttyd→pwsh/bash/python) and Caddy proxy.
+- `SECURITY.md`, `CONTRIBUTING.md`, `ROADMAP.md` — contributor hygiene.
+- `LICENSE` — placeholder (choose your license).
+- `.gitignore` — sensible defaults.
 
----
+## Quick start (dev)
+```bash
+# 1) Start exec backend (ttyd -> pwsh) + proxy (HTTP only for dev)
+cd docker
+docker compose up -d
 
-**Consent-first, no-autostart.** See: [AUTOSTART_AND_CONSENT](docs/policy/AUTOSTART_AND_CONSENT.md) • [DEPENDENCIES](docs/DEPENDENCIES.md) • [TERMS (draft)](docs/legal/TERMS_DRAFT.md)
+# 2) Run the Electron shell (needs Node 20+)
+cd ../electron
+npm i
+npm run start
+```
 
-## Productization Manifest: CoAgent Assets & Locations
-
-> Source of truth for where things live today. Keep this section updated as we move content in.
-
-### Repos / Branches
-- **Primary**: `rickballard/CoAgent` (branch: `main`) — app(s), policies, CI.
-- **Source pools to draw from**: `CoCivium/CoModules`, `CoCivium/CoPolicies` (migration issue tracks provenance).
-
-### Code & Project Tree
-- **Launcher (manual-only)**: `src/CoAgent.Launcher/` → outputs to `src/CoAgent.Launcher/bin/Release/net8.0-windows/CoAgent.exe`
-- **Tray helper (optional)**: `src/CoTray/` → outputs to `src/CoTray/bin/Release/net8.0-windows/CoTray.exe`
-- **Solution**: `CoAgent.sln`
-- **CI**: `.github/workflows/ci.yml`
-- **Governance**: `.github/ISSUE_TEMPLATE/*`, `.github/PULL_REQUEST_TEMPLATE.md`, `CODEOWNERS`
-
-### Runtime & Session State (Local machine)
-- **Consent file** (required for any run): `%USERPROFILE%\.CoAgent\consent.json`
-- **Ephemeral status** (tray watches): `%USERPROFILE%\CoTemps\status\`  
-  - Signals: `SESSION_OK.txt`, `SESSION_WARN.txt`, `SESSION_FAIL.txt`, `SESSION_DONE.txt`
-- **Workspace cache/logs**: `%USERPROFILE%\CoCache\…` (e.g., `CoCache\CoCivium\<topic>\<YYYY>\ <MM>\ <DD>\ *.snapshot.json`)
-
-### PowerShell Tooling (BPOE)
-- **Required shell**: PowerShell 7+ (`winget install Microsoft.PowerShell`)
-- **BPOE module home (convention)**: `%USERPROFILE%\Documents\WindowsPowerShell\Modules\CoBPOE\`
-  - Example job: `CoHeartbeat.ps1` (tray menu: Stop/Resume via Start-Job/Stop-Job)
-- **Scripts are **opt-in** only**; nothing runs without explicit user action.
-
-### Dependencies (Declared & Minimal)
-- **.NET 8 SDK** (build) / **Desktop Runtime** (run): `winget install Microsoft.DotNet.SDK.8`
-- **GitHub CLI** (DevOps): `winget install GitHub.cli`
-- **Windows Explorer** (open folders from tray): built-in
-- Full list: see [`docs/DEPENDENCIES.md`](docs/DEPENDENCIES.md)
-
-### Policy / Legal / Consent
-- **No autostart by default**, consent-first: [`docs/policy/AUTOSTART_AND_CONSENT.md`](docs/policy/AUTOSTART_AND_CONSENT.md)
-- **Terms (draft, needs counsel)**: [`docs/legal/TERMS_DRAFT.md`](docs/legal/TERMS_DRAFT.md)
-- **Principles**: No corruption • No coercion • No kings. Revocation is first-class.
-
-### CI/CD Notes
-- Current workflow: placeholder lint/build on pushes/PRs; target runners: `windows-latest` (for .NET desktop)
-- Future: add script lint, schema validation, signing, and release pipelines.
-
-### Packaging / Distribution (TBD)
-- Installer & signing: **TBD** (MSIX/winget/GitHub Releases)
-- Update channel(s): **TBD**
-- Provenance/attestations: **TBD**
-
-### Migration Checklist (Pointers)
-- CoAgent-related specs/policies/tools to import:
-  - CoPolicies: governance, ethics, consent wording (**preserve history if possible**)
-  - CoModules (PS): `CoHeartbeat`, `CoGuard`, `CoWrap`, `CoTemps.Watcher`, `CoCache.Load`
-  - Adapter envelope stubs → `src/adapters/*` (interfaces + tests)
-- Tracking issue: _“Migration PR Plan: lift from CoCivium/CoModules”_ (see repo issues)
-
----
+## Status
+Seed bundle generated 2025-09-12. Intended as scaffolding; replace stubs with real control-plane and guard checks.

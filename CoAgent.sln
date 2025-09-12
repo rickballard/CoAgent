@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3AC86FE1-6B97-46C1-9960-502373EE060C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoTray", "src\CoTray\CoTray.csproj", "{74DD2FF8-6FF6-4DB1-BEDC-51D2DA40DE6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoAgent.Launcher", "src\CoAgent.Launcher\CoAgent.Launcher.csproj", "{F4817551-56CF-4A9D-BFEA-2B6C654DADC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74DD2FF8-6FF6-4DB1-BEDC-51D2DA40DE6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74DD2FF8-6FF6-4DB1-BEDC-51D2DA40DE6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74DD2FF8-6FF6-4DB1-BEDC-51D2DA40DE6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74DD2FF8-6FF6-4DB1-BEDC-51D2DA40DE6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4817551-56CF-4A9D-BFEA-2B6C654DADC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4817551-56CF-4A9D-BFEA-2B6C654DADC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4817551-56CF-4A9D-BFEA-2B6C654DADC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4817551-56CF-4A9D-BFEA-2B6C654DADC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74DD2FF8-6FF6-4DB1-BEDC-51D2DA40DE6D} = {3AC86FE1-6B97-46C1-9960-502373EE060C}
+		{F4817551-56CF-4A9D-BFEA-2B6C654DADC0} = {3AC86FE1-6B97-46C1-9960-502373EE060C}
+	EndGlobalSection
+EndGlobal

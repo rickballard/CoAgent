@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  ps7:
+    image: ghcr.io/powershell/powershell:7.4
+    working_dir: /work
+    user: "1000:1000"
+    entrypoint: ["/bin/sh","-lc","pwsh -NoLogo"]
+    volumes:
+      - ../work:/work
+  ttyd:
+    image: tsl0922/ttyd:1.7.7
+    command: ["-p","7681","-t","title=CoAgent PS","--","bash","-lc","exec /usr/bin/pwsh -NoLogo"]
+    ports: ["7681:7681"]
+    depends_on: [ps7]

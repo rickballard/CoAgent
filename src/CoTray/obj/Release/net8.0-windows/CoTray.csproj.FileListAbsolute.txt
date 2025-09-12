@@ -1,0 +1,15 @@
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoTray\bin\Release\net8.0-windows\CoTray.exe
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoTray\bin\Release\net8.0-windows\CoTray.deps.json
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoTray\bin\Release\net8.0-windows\CoTray.runtimeconfig.json
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoTray\bin\Release\net8.0-windows\CoTray.dll
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoTray\bin\Release\net8.0-windows\CoTray.pdb
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoTray\obj\Release\net8.0-windows\CoTray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoTray\obj\Release\net8.0-windows\CoTray.AssemblyInfoInputs.cache
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoTray\obj\Release\net8.0-windows\CoTray.AssemblyInfo.cs
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoTray\obj\Release\net8.0-windows\CoTray.csproj.CoreCompileInputs.cache
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoTray\obj\Release\net8.0-windows\CoTray.sourcelink.json
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoTray\obj\Release\net8.0-windows\CoTray.dll
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoTray\obj\Release\net8.0-windows\refint\CoTray.dll
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoTray\obj\Release\net8.0-windows\CoTray.pdb
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoTray\obj\Release\net8.0-windows\CoTray.genruntimeconfig.cache
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoTray\obj\Release\net8.0-windows\ref\CoTray.dll
