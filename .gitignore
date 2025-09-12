@@ -3,3 +3,8 @@ CoTemps/
 *.zip
 *.log
 *.cache
+
+docs/status/HEALTH.json
+docs/status/bpoe-log.ndjson
+**/bin/
+**/obj/
