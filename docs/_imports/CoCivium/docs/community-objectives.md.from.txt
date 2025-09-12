@@ -1,0 +1,5 @@
+ORIGIN:  C:\Users\Chris\Documents\GitHub\CoCivium\docs\community-objectives.md
+HASH:    5F2FE8903B44ADAAAD4477C2707BC9E0DA610529686F9349D217A5D0398D9029
+MOVED:   2025-09-12T18:33:47-04:00
+BY:      Chris@X1
+NOTE:    Temporary import. Grand Migration may delete after consolidation.

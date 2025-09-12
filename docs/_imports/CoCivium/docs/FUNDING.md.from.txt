@@ -1,0 +1,5 @@
+ORIGIN:  C:\Users\Chris\Documents\GitHub\CoCivium\docs\FUNDING.md
+HASH:    D8F22FCE9E998883AF03331F0DAC3CA8C4510C7DEF251541289EC9672EE1AD45
+MOVED:   2025-09-12T18:33:47-04:00
+BY:      Chris@X1
+NOTE:    Temporary import. Grand Migration may delete after consolidation.

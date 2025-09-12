@@ -1,0 +1,5 @@
+ORIGIN:  C:\Users\Chris\Documents\GitHub\CoCivium\docs\COAGENT-WORKFLOW-BASICS.md
+HASH:    87E28ECB4D22BFABEBDFB17B2C9E8A4EA251A003BB03B94F3E36AFC7B5933A4C
+MOVED:   2025-09-12T18:33:47-04:00
+BY:      Chris@X1
+NOTE:    Temporary import. Grand Migration may delete after consolidation.
