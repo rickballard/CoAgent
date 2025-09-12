@@ -1,0 +1,11 @@
+﻿name: guard-manifest
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify README has Productization Manifest
+        run: grep -q '## Productization Manifest: CoAgent Assets & Locations' README.md
+      - name: Verify YAML manifest exists
+        run: test -f .github/productization.manifest.yml
