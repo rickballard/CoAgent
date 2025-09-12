@@ -1,0 +1,5 @@
+﻿# CoAgent defaults
+*.zip
+*.log
+CoTemps/
+*.cache
