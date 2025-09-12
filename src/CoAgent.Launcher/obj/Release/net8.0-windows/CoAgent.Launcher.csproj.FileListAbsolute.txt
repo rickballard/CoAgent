@@ -1,0 +1,15 @@
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\bin\Release\net8.0-windows\CoAgent.exe
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\bin\Release\net8.0-windows\CoAgent.deps.json
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\bin\Release\net8.0-windows\CoAgent.runtimeconfig.json
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\bin\Release\net8.0-windows\CoAgent.dll
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\bin\Release\net8.0-windows\CoAgent.pdb
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\obj\Release\net8.0-windows\CoAgent.Launcher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\obj\Release\net8.0-windows\CoAgent.Launcher.AssemblyInfoInputs.cache
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\obj\Release\net8.0-windows\CoAgent.Launcher.AssemblyInfo.cs
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\obj\Release\net8.0-windows\CoAgent.Launcher.csproj.CoreCompileInputs.cache
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\obj\Release\net8.0-windows\CoAgent.Launcher.sourcelink.json
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\obj\Release\net8.0-windows\CoAgent.dll
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\obj\Release\net8.0-windows\refint\CoAgent.dll
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\obj\Release\net8.0-windows\CoAgent.pdb
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\obj\Release\net8.0-windows\CoAgent.Launcher.genruntimeconfig.cache
+C:\Users\Chris\Documents\GitHub\CoAgent\src\CoAgent.Launcher\obj\Release\net8.0-windows\ref\CoAgent.dll
