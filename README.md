@@ -7,3 +7,8 @@ Vendor-independent **BPOE middleware**: mandatory offloading (CoCache/CoTemp), h
 - **CoCache** (sidecar prototypes)
 
 Migration PRs will lift code/docs here; nothing moved yet.
+
+
+---
+
+**Consent-first, no-autostart.** See: [AUTOSTART_AND_CONSENT](docs/policy/AUTOSTART_AND_CONSENT.md) • [DEPENDENCIES](docs/DEPENDENCIES.md) • [TERMS (draft)](docs/legal/TERMS_DRAFT.md)
