@@ -1,5 +1,5 @@
-﻿# CoAgent defaults
+﻿.DS_Store
+CoTemps/
 *.zip
 *.log
-CoTemps/
 *.cache

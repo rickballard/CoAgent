@@ -3,8 +3,6 @@ about: Track a concrete CoAgent task
 labels: todo
 body:
   - type: textarea
-    attributes:
-      label: Context
+    attributes: { label: Context }
   - type: textarea
-    attributes:
-      label: Acceptance Criteria
+    attributes: { label: Acceptance Criteria }

@@ -1,13 +1,9 @@
 ﻿# CoAgent
 
-Vendor-independent **BPOE middleware** for AI sessions:
-- Mandatory offloading (**CoCache** durable snapshots, **CoTemp** ephemeral artifacts)
-- Heartbeat/guard with OE status ([OE:<glyph>]) for shell and UI
-- **Multi-AI adapter** envelopes so different vendors share the same sidecar under guardrails
+Vendor-independent **BPOE middleware**: mandatory offloading (CoCache/CoTemp), heartbeat/guard with [OE:<glyph>], and multi-AI adapter.
+**Scaffold only** — source-of-truth lives (for now) in:
+- **CoCivium** (policies/specs)
+- **CoModules** (PS7 tools & utilities)
+- **CoCache** (sidecar prototypes)
 
-> Source of truth for early specs/tools currently lives in:
-> - **CoCivium** (policy/spec docs)
-> - **CoModules** (PowerShell scripts & utilities)
-> - **CoCache** (sidecar store prototypes)
-
-This repo starts as a **scaffold**. Migration PRs will move code/docs here.
+Migration PRs will lift code/docs here; nothing moved yet.
