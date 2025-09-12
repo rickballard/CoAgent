@@ -11,28 +11,127 @@ _Auto-generated; edit source files to change items._
 - docs\index\ADVICE-INDEX.md (L8) — ## ADVICE-INDEX.md
 - docs\index\ADVICE-INDEX.md (L9) — - docs\index\ADVICE-INDEX.md (L1) — # Advice / TODO Index
 - docs\index\ADVICE-INDEX.md (L10) — - docs\index\ADVICE-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
-- docs\index\ADVICE-INDEX.md (L11) — - docs\index\ADVICE-INDEX.md (L9) — - docs\plan\MasterPlan.md (L1) — # Master Plan
-- docs\index\ADVICE-INDEX.md (L12) — - docs\index\ADVICE-INDEX.md (L12) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
-- docs\index\ADVICE-INDEX.md (L13) — - docs\index\ADVICE-INDEX.md (L15) — - docs\legal\TERMS_DRAFT.md (L3) — **This is not legal advice.** Before distribution, have counsel review and finalize.
-- docs\index\ADVICE-INDEX.md (L16) — - docs\status\HEALTH.md (L6) — - Advice/TODO hits: 4 (TODO: 2)
-- docs\index\ADVICE-INDEX.md (L17) — - docs\status\HEALTH.md (L9) — - [#1](https://github.com/rickballard/CoAgent/issues/1) Encrypt CoCache snapshots (v0.2) [bpoe, security, todo]
-- docs\index\ADVICE-INDEX.md (L18) — - docs\status\HEALTH.md (L10) — - [#2](https://github.com/rickballard/CoAgent/issues/2) Tray UI for BPOE heartbeat/guard [bpoe, ui, todo]
-- docs\index\ADVICE-INDEX.md (L19) — - docs\status\HEALTH.md (L11) — - [#3](https://github.com/rickballard/CoAgent/issues/3) Adapter envelopes for multi-AI [bpoe, interop, todo]
-- docs\index\ADVICE-INDEX.md (L20) — - docs\status\HEALTH.md (L12) — - [#4](https://github.com/rickballard/CoAgent/issues/4) Migration PR Plan: lift from CoCivium/CoModules [bpoe, todo]
-- docs\index\ADVICE-INDEX.md (L21) — - docs\status\HEALTH.md (L13) — - [#5](https://github.com/rickballard/CoAgent/issues/5) BPOE Policy: No Autostart & Consent Gate (enforced) [bpoe, security, todo]
-- docs\index\ADVICE-INDEX.md (L22) — - docs\status\HEALTH.md (L14) — - [#6](https://github.com/rickballard/CoAgent/issues/6) .NET as Declared BPOE Dependency [bpoe, todo]
-- docs\index\ADVICE-INDEX.md (L23) — - docs\status\HEALTH.md (L15) — - [#7](https://github.com/rickballard/CoAgent/issues/7) Productization Next Bites [bpoe, todo, productization]
-- docs\index\ADVICE-INDEX.md (L26) — - docs\plan\MasterPlan.md (L1) — # Master Plan
-- docs\index\ADVICE-INDEX.md (L29) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
-- docs\index\ADVICE-INDEX.md (L32) — - docs\legal\TERMS_DRAFT.md (L3) — **This is not legal advice.** Before distribution, have counsel review and finalize.
-- docs\index\ADVICE-INDEX.md (L34) — ## TODO-INDEX.md
-- docs\index\ADVICE-INDEX.md (L35) — - docs\index\TODO-INDEX.md (L1) — # TODO Summary
-- docs\index\ADVICE-INDEX.md (L36) — - docs\index\TODO-INDEX.md (L3) — _Filtered to TODO/FIXME only._
-- docs\index\ADVICE-INDEX.md (L37) — - docs\index\TODO-INDEX.md (L5) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
-- docs\index\ADVICE-INDEX.md (L38) — - docs\index\TODO-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\ADVICE-INDEX.md (L11) — - docs\index\ADVICE-INDEX.md (L8) — ## ADVICE-INDEX.md
+- docs\index\ADVICE-INDEX.md (L12) — - docs\index\ADVICE-INDEX.md (L9) — - docs\index\ADVICE-INDEX.md (L1) — # Advice / TODO Index
+- docs\index\ADVICE-INDEX.md (L13) — - docs\index\ADVICE-INDEX.md (L10) — - docs\index\ADVICE-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\ADVICE-INDEX.md (L14) — - docs\index\ADVICE-INDEX.md (L11) — - docs\index\ADVICE-INDEX.md (L8) — ## ADVICE-INDEX.md
+- docs\index\ADVICE-INDEX.md (L15) — - docs\index\ADVICE-INDEX.md (L12) — - docs\index\ADVICE-INDEX.md (L9) — - docs\index\ADVICE-INDEX.md (L1) — # Advice / TODO Index
+- docs\index\ADVICE-INDEX.md (L16) — - docs\index\ADVICE-INDEX.md (L13) — - docs\index\ADVICE-INDEX.md (L10) — - docs\index\ADVICE-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\ADVICE-INDEX.md (L17) — - docs\index\ADVICE-INDEX.md (L14) — - docs\index\ADVICE-INDEX.md (L11) — - docs\index\ADVICE-INDEX.md (L9) — - docs\plan\MasterPlan.md (L1) — # Master Plan
+- docs\index\ADVICE-INDEX.md (L18) — - docs\index\ADVICE-INDEX.md (L15) — - docs\index\ADVICE-INDEX.md (L12) — - docs\index\ADVICE-INDEX.md (L12) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\ADVICE-INDEX.md (L19) — - docs\index\ADVICE-INDEX.md (L16) — - docs\index\ADVICE-INDEX.md (L13) — - docs\index\ADVICE-INDEX.md (L15) — - docs\legal\TERMS_DRAFT.md (L3) — **This is not legal advice.** Before distribution, have counsel review and finalize.
+- docs\index\ADVICE-INDEX.md (L20) — - docs\index\ADVICE-INDEX.md (L17) — - docs\index\ADVICE-INDEX.md (L16) — - docs\status\HEALTH.md (L6) — - Advice/TODO hits: 4 (TODO: 2)
+- docs\index\ADVICE-INDEX.md (L21) — - docs\index\ADVICE-INDEX.md (L18) — - docs\index\ADVICE-INDEX.md (L17) — - docs\status\HEALTH.md (L9) — - [#1](https://github.com/rickballard/CoAgent/issues/1) Encrypt CoCache snapshots (v0.2) [bpoe, security, todo]
+- docs\index\ADVICE-INDEX.md (L22) — - docs\index\ADVICE-INDEX.md (L19) — - docs\index\ADVICE-INDEX.md (L18) — - docs\status\HEALTH.md (L10) — - [#2](https://github.com/rickballard/CoAgent/issues/2) Tray UI for BPOE heartbeat/guard [bpoe, ui, todo]
+- docs\index\ADVICE-INDEX.md (L23) — - docs\index\ADVICE-INDEX.md (L20) — - docs\index\ADVICE-INDEX.md (L19) — - docs\status\HEALTH.md (L11) — - [#3](https://github.com/rickballard/CoAgent/issues/3) Adapter envelopes for multi-AI [bpoe, interop, todo]
+- docs\index\ADVICE-INDEX.md (L24) — - docs\index\ADVICE-INDEX.md (L21) — - docs\index\ADVICE-INDEX.md (L20) — - docs\status\HEALTH.md (L12) — - [#4](https://github.com/rickballard/CoAgent/issues/4) Migration PR Plan: lift from CoCivium/CoModules [bpoe, todo]
+- docs\index\ADVICE-INDEX.md (L25) — - docs\index\ADVICE-INDEX.md (L22) — - docs\index\ADVICE-INDEX.md (L21) — - docs\status\HEALTH.md (L13) — - [#5](https://github.com/rickballard/CoAgent/issues/5) BPOE Policy: No Autostart & Consent Gate (enforced) [bpoe, security, todo]
+- docs\index\ADVICE-INDEX.md (L26) — - docs\index\ADVICE-INDEX.md (L23) — - docs\index\ADVICE-INDEX.md (L22) — - docs\status\HEALTH.md (L14) — - [#6](https://github.com/rickballard/CoAgent/issues/6) .NET as Declared BPOE Dependency [bpoe, todo]
+- docs\index\ADVICE-INDEX.md (L27) — - docs\index\ADVICE-INDEX.md (L24) — - docs\index\ADVICE-INDEX.md (L23) — - docs\status\HEALTH.md (L15) — - [#7](https://github.com/rickballard/CoAgent/issues/7) Productization Next Bites [bpoe, todo, productization]
+- docs\index\ADVICE-INDEX.md (L28) — - docs\index\ADVICE-INDEX.md (L25) — - docs\index\ADVICE-INDEX.md (L26) — - docs\plan\MasterPlan.md (L1) — # Master Plan
+- docs\index\ADVICE-INDEX.md (L29) — - docs\index\ADVICE-INDEX.md (L26) — - docs\index\ADVICE-INDEX.md (L29) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\ADVICE-INDEX.md (L30) — - docs\index\ADVICE-INDEX.md (L27) — - docs\index\ADVICE-INDEX.md (L32) — - docs\legal\TERMS_DRAFT.md (L3) — **This is not legal advice.** Before distribution, have counsel review and finalize.
+- docs\index\ADVICE-INDEX.md (L31) — - docs\index\ADVICE-INDEX.md (L28) — - docs\index\ADVICE-INDEX.md (L34) — ## TODO-INDEX.md
+- docs\index\ADVICE-INDEX.md (L32) — - docs\index\ADVICE-INDEX.md (L29) — - docs\index\ADVICE-INDEX.md (L35) — - docs\index\TODO-INDEX.md (L1) — # TODO Summary
+- docs\index\ADVICE-INDEX.md (L33) — - docs\index\ADVICE-INDEX.md (L30) — - docs\index\ADVICE-INDEX.md (L36) — - docs\index\TODO-INDEX.md (L3) — _Filtered to TODO/FIXME only._
+- docs\index\ADVICE-INDEX.md (L34) — - docs\index\ADVICE-INDEX.md (L31) — - docs\index\ADVICE-INDEX.md (L37) — - docs\index\TODO-INDEX.md (L5) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\ADVICE-INDEX.md (L35) — - docs\index\ADVICE-INDEX.md (L32) — - docs\index\ADVICE-INDEX.md (L38) — - docs\index\TODO-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\ADVICE-INDEX.md (L36) — - docs\index\ADVICE-INDEX.md (L35) — - docs\status\HEALTH.md (L6) — - Advice/TODO hits: 21 (TODO: 17)
+- docs\index\ADVICE-INDEX.md (L37) — - docs\index\ADVICE-INDEX.md (L36) — - docs\status\HEALTH.md (L9) — - [#1](https://github.com/rickballard/CoAgent/issues/1) Encrypt CoCache snapshots (v0.2) [bpoe, security, todo]
+- docs\index\ADVICE-INDEX.md (L38) — - docs\index\ADVICE-INDEX.md (L37) — - docs\status\HEALTH.md (L10) — - [#2](https://github.com/rickballard/CoAgent/issues/2) Tray UI for BPOE heartbeat/guard [bpoe, ui, todo]
+- docs\index\ADVICE-INDEX.md (L39) — - docs\index\ADVICE-INDEX.md (L38) — - docs\status\HEALTH.md (L11) — - [#3](https://github.com/rickballard/CoAgent/issues/3) Adapter envelopes for multi-AI [bpoe, interop, todo]
+- docs\index\ADVICE-INDEX.md (L40) — - docs\index\ADVICE-INDEX.md (L39) — - docs\status\HEALTH.md (L12) — - [#4](https://github.com/rickballard/CoAgent/issues/4) Migration PR Plan: lift from CoCivium/CoModules [bpoe, todo]
+- docs\index\ADVICE-INDEX.md (L41) — - docs\index\ADVICE-INDEX.md (L40) — - docs\status\HEALTH.md (L13) — - [#5](https://github.com/rickballard/CoAgent/issues/5) BPOE Policy: No Autostart & Consent Gate (enforced) [bpoe, security, todo]
+- docs\index\ADVICE-INDEX.md (L42) — - docs\index\ADVICE-INDEX.md (L41) — - docs\status\HEALTH.md (L14) — - [#6](https://github.com/rickballard/CoAgent/issues/6) .NET as Declared BPOE Dependency [bpoe, todo]
+- docs\index\ADVICE-INDEX.md (L43) — - docs\index\ADVICE-INDEX.md (L42) — - docs\status\HEALTH.md (L15) — - [#7](https://github.com/rickballard/CoAgent/issues/7) Productization Next Bites [bpoe, todo, productization]
+- docs\index\ADVICE-INDEX.md (L44) — - docs\index\ADVICE-INDEX.md (L45) — - docs\plan\MasterPlan.md (L1) — # Master Plan
+- docs\index\ADVICE-INDEX.md (L45) — - docs\index\ADVICE-INDEX.md (L48) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\ADVICE-INDEX.md (L46) — - docs\index\ADVICE-INDEX.md (L51) — - docs\legal\TERMS_DRAFT.md (L3) — **This is not legal advice.** Before distribution, have counsel review and finalize.
+- docs\index\ADVICE-INDEX.md (L47) — - docs\index\ADVICE-INDEX.md (L53) — ## TODO-INDEX.md
+- docs\index\ADVICE-INDEX.md (L48) — - docs\index\ADVICE-INDEX.md (L54) — - docs\index\TODO-INDEX.md (L1) — # TODO Summary
+- docs\index\ADVICE-INDEX.md (L49) — - docs\index\ADVICE-INDEX.md (L55) — - docs\index\TODO-INDEX.md (L3) — _Filtered to TODO/FIXME only._
+- docs\index\ADVICE-INDEX.md (L50) — - docs\index\ADVICE-INDEX.md (L56) — - docs\index\TODO-INDEX.md (L5) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\ADVICE-INDEX.md (L51) — - docs\index\ADVICE-INDEX.md (L57) — - docs\index\TODO-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\ADVICE-INDEX.md (L52) — - docs\index\ADVICE-INDEX.md (L58) — - docs\index\TODO-INDEX.md (L7) — - docs\index\ADVICE-INDEX.md (L1) — # Advice / TODO Index
+- docs\index\ADVICE-INDEX.md (L53) — - docs\index\ADVICE-INDEX.md (L59) — - docs\index\TODO-INDEX.md (L8) — - docs\index\ADVICE-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\ADVICE-INDEX.md (L54) — - docs\index\ADVICE-INDEX.md (L60) — - docs\index\TODO-INDEX.md (L9) — - docs\index\ADVICE-INDEX.md (L12) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\ADVICE-INDEX.md (L55) — - docs\index\ADVICE-INDEX.md (L61) — - docs\index\TODO-INDEX.md (L10) — - docs\index\TODO-INDEX.md (L1) — # TODO Summary
+- docs\index\ADVICE-INDEX.md (L56) — - docs\index\ADVICE-INDEX.md (L62) — - docs\index\TODO-INDEX.md (L11) — - docs\index\TODO-INDEX.md (L3) — _Filtered to TODO/FIXME only._
+- docs\index\ADVICE-INDEX.md (L57) — - docs\index\ADVICE-INDEX.md (L63) — - docs\index\TODO-INDEX.md (L12) — - docs\index\TODO-INDEX.md (L5) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\ADVICE-INDEX.md (L58) — - docs\index\ADVICE-INDEX.md (L64) — - docs\index\TODO-INDEX.md (L13) — - docs\index\TODO-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\ADVICE-INDEX.md (L59) — - docs\index\ADVICE-INDEX.md (L65) — - docs\index\TODO-INDEX.md (L14) — - docs\status\HEALTH.md (L6) — - Advice/TODO hits: 4 (TODO: 2)
+- docs\index\ADVICE-INDEX.md (L60) — - docs\index\ADVICE-INDEX.md (L66) — - docs\index\TODO-INDEX.md (L15) — - docs\status\HEALTH.md (L9) — - [#1](https://github.com/rickballard/CoAgent/issues/1) Encrypt CoCache snapshots (v0.2) [bpoe, security, todo]
+- docs\index\ADVICE-INDEX.md (L61) — - docs\index\ADVICE-INDEX.md (L67) — - docs\index\TODO-INDEX.md (L16) — - docs\status\HEALTH.md (L10) — - [#2](https://github.com/rickballard/CoAgent/issues/2) Tray UI for BPOE heartbeat/guard [bpoe, ui, todo]
+- docs\index\ADVICE-INDEX.md (L62) — - docs\index\ADVICE-INDEX.md (L68) — - docs\index\TODO-INDEX.md (L17) — - docs\status\HEALTH.md (L11) — - [#3](https://github.com/rickballard/CoAgent/issues/3) Adapter envelopes for multi-AI [bpoe, interop, todo]
+- docs\index\ADVICE-INDEX.md (L63) — - docs\index\ADVICE-INDEX.md (L69) — - docs\index\TODO-INDEX.md (L18) — - docs\status\HEALTH.md (L12) — - [#4](https://github.com/rickballard/CoAgent/issues/4) Migration PR Plan: lift from CoCivium/CoModules [bpoe, todo]
+- docs\index\ADVICE-INDEX.md (L64) — - docs\index\ADVICE-INDEX.md (L70) — - docs\index\TODO-INDEX.md (L19) — - docs\status\HEALTH.md (L13) — - [#5](https://github.com/rickballard/CoAgent/issues/5) BPOE Policy: No Autostart & Consent Gate (enforced) [bpoe, security, todo]
+- docs\index\ADVICE-INDEX.md (L65) — - docs\index\ADVICE-INDEX.md (L71) — - docs\index\TODO-INDEX.md (L20) — - docs\status\HEALTH.md (L14) — - [#6](https://github.com/rickballard/CoAgent/issues/6) .NET as Declared BPOE Dependency [bpoe, todo]
+- docs\index\ADVICE-INDEX.md (L66) — - docs\index\ADVICE-INDEX.md (L72) — - docs\index\TODO-INDEX.md (L21) — - docs\status\HEALTH.md (L15) — - [#7](https://github.com/rickballard/CoAgent/issues/7) Productization Next Bites [bpoe, todo, productization]
+- docs\index\ADVICE-INDEX.md (L69) — - docs\status\HEALTH.md (L6) — - Advice/TODO hits: 55 (TODO: 48)
+- docs\index\ADVICE-INDEX.md (L70) — - docs\status\HEALTH.md (L9) — - [1](https://github.com/rickballard/CoAgent/issues/1) Encrypt CoCache snapshots (v0.2) [bpoe, security, todo]
+- docs\index\ADVICE-INDEX.md (L71) — - docs\status\HEALTH.md (L10) — - [2](https://github.com/rickballard/CoAgent/issues/2) Tray UI for BPOE heartbeat/guard [bpoe, ui, todo]
+- docs\index\ADVICE-INDEX.md (L72) — - docs\status\HEALTH.md (L11) — - [3](https://github.com/rickballard/CoAgent/issues/3) Adapter envelopes for multi-AI [bpoe, interop, todo]
+- docs\index\ADVICE-INDEX.md (L73) — - docs\status\HEALTH.md (L12) — - [4](https://github.com/rickballard/CoAgent/issues/4) Migration PR Plan: lift from CoCivium/CoModules [bpoe, todo]
+- docs\index\ADVICE-INDEX.md (L74) — - docs\status\HEALTH.md (L13) — - [5](https://github.com/rickballard/CoAgent/issues/5) BPOE Policy: No Autostart & Consent Gate (enforced) [bpoe, security, todo]
+- docs\index\ADVICE-INDEX.md (L75) — - docs\status\HEALTH.md (L14) — - [6](https://github.com/rickballard/CoAgent/issues/6) .NET as Declared BPOE Dependency [bpoe, todo]
+- docs\index\ADVICE-INDEX.md (L76) — - docs\status\HEALTH.md (L15) — - [7](https://github.com/rickballard/CoAgent/issues/7) Productization Next Bites [bpoe, todo, productization]
+- docs\index\ADVICE-INDEX.md (L79) — - docs\plan\MasterPlan.md (L1) — # Master Plan
+- docs\index\ADVICE-INDEX.md (L82) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\ADVICE-INDEX.md (L85) — - docs\legal\TERMS_DRAFT.md (L3) — **This is not legal advice.** Before distribution, have counsel review and finalize.
+- docs\index\ADVICE-INDEX.md (L87) — ## TODO-INDEX.md
+- docs\index\ADVICE-INDEX.md (L88) — - docs\index\TODO-INDEX.md (L1) — # TODO Summary
+- docs\index\ADVICE-INDEX.md (L89) — - docs\index\TODO-INDEX.md (L3) — _Filtered to TODO/FIXME only._
+- docs\index\ADVICE-INDEX.md (L90) — - docs\index\TODO-INDEX.md (L5) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\ADVICE-INDEX.md (L91) — - docs\index\TODO-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\ADVICE-INDEX.md (L92) — - docs\index\TODO-INDEX.md (L7) — - docs\index\ADVICE-INDEX.md (L1) — # Advice / TODO Index
+- docs\index\ADVICE-INDEX.md (L93) — - docs\index\TODO-INDEX.md (L8) — - docs\index\ADVICE-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\ADVICE-INDEX.md (L94) — - docs\index\TODO-INDEX.md (L9) — - docs\index\ADVICE-INDEX.md (L9) — - docs\index\ADVICE-INDEX.md (L1) — # Advice / TODO Index
+- docs\index\ADVICE-INDEX.md (L95) — - docs\index\TODO-INDEX.md (L10) — - docs\index\ADVICE-INDEX.md (L10) — - docs\index\ADVICE-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\ADVICE-INDEX.md (L96) — - docs\index\TODO-INDEX.md (L11) — - docs\index\ADVICE-INDEX.md (L12) — - docs\index\ADVICE-INDEX.md (L12) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\ADVICE-INDEX.md (L97) — - docs\index\TODO-INDEX.md (L12) — - docs\index\ADVICE-INDEX.md (L16) — - docs\status\HEALTH.md (L6) — - Advice/TODO hits: 4 (TODO: 2)
+- docs\index\ADVICE-INDEX.md (L98) — - docs\index\TODO-INDEX.md (L13) — - docs\index\ADVICE-INDEX.md (L17) — - docs\status\HEALTH.md (L9) — - [#1](https://github.com/rickballard/CoAgent/issues/1) Encrypt CoCache snapshots (v0.2) [bpoe, security, todo]
+- docs\index\ADVICE-INDEX.md (L99) — - docs\index\TODO-INDEX.md (L14) — - docs\index\ADVICE-INDEX.md (L18) — - docs\status\HEALTH.md (L10) — - [#2](https://github.com/rickballard/CoAgent/issues/2) Tray UI for BPOE heartbeat/guard [bpoe, ui, todo]
+- docs\index\ADVICE-INDEX.md (L100) — - docs\index\TODO-INDEX.md (L15) — - docs\index\ADVICE-INDEX.md (L19) — - docs\status\HEALTH.md (L11) — - [#3](https://github.com/rickballard/CoAgent/issues/3) Adapter envelopes for multi-AI [bpoe, interop, todo]
+- docs\index\ADVICE-INDEX.md (L101) — - docs\index\TODO-INDEX.md (L16) — - docs\index\ADVICE-INDEX.md (L20) — - docs\status\HEALTH.md (L12) — - [#4](https://github.com/rickballard/CoAgent/issues/4) Migration PR Plan: lift from CoCivium/CoModules [bpoe, todo]
+- docs\index\ADVICE-INDEX.md (L102) — - docs\index\TODO-INDEX.md (L17) — - docs\index\ADVICE-INDEX.md (L21) — - docs\status\HEALTH.md (L13) — - [#5](https://github.com/rickballard/CoAgent/issues/5) BPOE Policy: No Autostart & Consent Gate (enforced) [bpoe, security, todo]
+- docs\index\ADVICE-INDEX.md (L103) — - docs\index\TODO-INDEX.md (L18) — - docs\index\ADVICE-INDEX.md (L22) — - docs\status\HEALTH.md (L14) — - [#6](https://github.com/rickballard/CoAgent/issues/6) .NET as Declared BPOE Dependency [bpoe, todo]
+- docs\index\ADVICE-INDEX.md (L104) — - docs\index\TODO-INDEX.md (L19) — - docs\index\ADVICE-INDEX.md (L23) — - docs\status\HEALTH.md (L15) — - [#7](https://github.com/rickballard/CoAgent/issues/7) Productization Next Bites [bpoe, todo, productization]
+- docs\index\ADVICE-INDEX.md (L105) — - docs\index\TODO-INDEX.md (L20) — - docs\index\ADVICE-INDEX.md (L29) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\ADVICE-INDEX.md (L106) — - docs\index\TODO-INDEX.md (L21) — - docs\index\ADVICE-INDEX.md (L34) — ## TODO-INDEX.md
+- docs\index\ADVICE-INDEX.md (L107) — - docs\index\TODO-INDEX.md (L22) — - docs\index\ADVICE-INDEX.md (L35) — - docs\index\TODO-INDEX.md (L1) — # TODO Summary
+- docs\index\ADVICE-INDEX.md (L108) — - docs\index\TODO-INDEX.md (L23) — - docs\index\ADVICE-INDEX.md (L36) — - docs\index\TODO-INDEX.md (L3) — _Filtered to TODO/FIXME only._
+- docs\index\ADVICE-INDEX.md (L109) — - docs\index\TODO-INDEX.md (L24) — - docs\index\ADVICE-INDEX.md (L37) — - docs\index\TODO-INDEX.md (L5) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\ADVICE-INDEX.md (L110) — - docs\index\TODO-INDEX.md (L25) — - docs\index\ADVICE-INDEX.md (L38) — - docs\index\TODO-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\ADVICE-INDEX.md (L111) — - docs\index\TODO-INDEX.md (L26) — - docs\index\TODO-INDEX.md (L1) — # TODO Summary
+- docs\index\ADVICE-INDEX.md (L112) — - docs\index\TODO-INDEX.md (L27) — - docs\index\TODO-INDEX.md (L3) — _Filtered to TODO/FIXME only._
+- docs\index\ADVICE-INDEX.md (L113) — - docs\index\TODO-INDEX.md (L28) — - docs\index\TODO-INDEX.md (L5) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\ADVICE-INDEX.md (L114) — - docs\index\TODO-INDEX.md (L29) — - docs\index\TODO-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\ADVICE-INDEX.md (L115) — - docs\index\TODO-INDEX.md (L30) — - docs\index\TODO-INDEX.md (L7) — - docs\index\ADVICE-INDEX.md (L1) — # Advice / TODO Index
+- docs\index\ADVICE-INDEX.md (L116) — - docs\index\TODO-INDEX.md (L31) — - docs\index\TODO-INDEX.md (L8) — - docs\index\ADVICE-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\ADVICE-INDEX.md (L117) — - docs\index\TODO-INDEX.md (L32) — - docs\index\TODO-INDEX.md (L9) — - docs\index\ADVICE-INDEX.md (L12) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\ADVICE-INDEX.md (L118) — - docs\index\TODO-INDEX.md (L33) — - docs\index\TODO-INDEX.md (L10) — - docs\index\TODO-INDEX.md (L1) — # TODO Summary
+- docs\index\ADVICE-INDEX.md (L119) — - docs\index\TODO-INDEX.md (L34) — - docs\index\TODO-INDEX.md (L11) — - docs\index\TODO-INDEX.md (L3) — _Filtered to TODO/FIXME only._
+- docs\index\ADVICE-INDEX.md (L120) — - docs\index\TODO-INDEX.md (L35) — - docs\index\TODO-INDEX.md (L12) — - docs\index\TODO-INDEX.md (L5) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\ADVICE-INDEX.md (L121) — - docs\index\TODO-INDEX.md (L36) — - docs\index\TODO-INDEX.md (L13) — - docs\index\TODO-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\ADVICE-INDEX.md (L122) — - docs\index\TODO-INDEX.md (L37) — - docs\index\TODO-INDEX.md (L14) — - docs\status\HEALTH.md (L6) — - Advice/TODO hits: 4 (TODO: 2)
+- docs\index\ADVICE-INDEX.md (L123) — - docs\index\TODO-INDEX.md (L38) — - docs\index\TODO-INDEX.md (L15) — - docs\status\HEALTH.md (L9) — - [#1](https://github.com/rickballard/CoAgent/issues/1) Encrypt CoCache snapshots (v0.2) [bpoe, security, todo]
+- docs\index\ADVICE-INDEX.md (L124) — - docs\index\TODO-INDEX.md (L39) — - docs\index\TODO-INDEX.md (L16) — - docs\status\HEALTH.md (L10) — - [#2](https://github.com/rickballard/CoAgent/issues/2) Tray UI for BPOE heartbeat/guard [bpoe, ui, todo]
+- docs\index\ADVICE-INDEX.md (L125) — - docs\index\TODO-INDEX.md (L40) — - docs\index\TODO-INDEX.md (L17) — - docs\status\HEALTH.md (L11) — - [#3](https://github.com/rickballard/CoAgent/issues/3) Adapter envelopes for multi-AI [bpoe, interop, todo]
+- docs\index\ADVICE-INDEX.md (L126) — - docs\index\TODO-INDEX.md (L41) — - docs\index\TODO-INDEX.md (L18) — - docs\status\HEALTH.md (L12) — - [#4](https://github.com/rickballard/CoAgent/issues/4) Migration PR Plan: lift from CoCivium/CoModules [bpoe, todo]
+- docs\index\ADVICE-INDEX.md (L127) — - docs\index\TODO-INDEX.md (L42) — - docs\index\TODO-INDEX.md (L19) — - docs\status\HEALTH.md (L13) — - [#5](https://github.com/rickballard/CoAgent/issues/5) BPOE Policy: No Autostart & Consent Gate (enforced) [bpoe, security, todo]
+- docs\index\ADVICE-INDEX.md (L128) — - docs\index\TODO-INDEX.md (L43) — - docs\index\TODO-INDEX.md (L20) — - docs\status\HEALTH.md (L14) — - [#6](https://github.com/rickballard/CoAgent/issues/6) .NET as Declared BPOE Dependency [bpoe, todo]
+- docs\index\ADVICE-INDEX.md (L129) — - docs\index\TODO-INDEX.md (L44) — - docs\index\TODO-INDEX.md (L21) — - docs\status\HEALTH.md (L15) — - [#7](https://github.com/rickballard/CoAgent/issues/7) Productization Next Bites [bpoe, todo, productization]
+- docs\index\ADVICE-INDEX.md (L130) — - docs\index\TODO-INDEX.md (L45) — - docs\status\HEALTH.md (L6) — - Advice/TODO hits: 21 (TODO: 17)
+- docs\index\ADVICE-INDEX.md (L131) — - docs\index\TODO-INDEX.md (L46) — - docs\status\HEALTH.md (L9) — - [#1](https://github.com/rickballard/CoAgent/issues/1) Encrypt CoCache snapshots (v0.2) [bpoe, security, todo]
+- docs\index\ADVICE-INDEX.md (L132) — - docs\index\TODO-INDEX.md (L47) — - docs\status\HEALTH.md (L10) — - [#2](https://github.com/rickballard/CoAgent/issues/2) Tray UI for BPOE heartbeat/guard [bpoe, ui, todo]
+- docs\index\ADVICE-INDEX.md (L133) — - docs\index\TODO-INDEX.md (L48) — - docs\status\HEALTH.md (L11) — - [#3](https://github.com/rickballard/CoAgent/issues/3) Adapter envelopes for multi-AI [bpoe, interop, todo]
+- docs\index\ADVICE-INDEX.md (L134) — - docs\index\TODO-INDEX.md (L49) — - docs\status\HEALTH.md (L12) — - [#4](https://github.com/rickballard/CoAgent/issues/4) Migration PR Plan: lift from CoCivium/CoModules [bpoe, todo]
+- docs\index\ADVICE-INDEX.md (L135) — - docs\index\TODO-INDEX.md (L50) — - docs\status\HEALTH.md (L13) — - [#5](https://github.com/rickballard/CoAgent/issues/5) BPOE Policy: No Autostart & Consent Gate (enforced) [bpoe, security, todo]
+- docs\index\ADVICE-INDEX.md (L136) — - docs\index\TODO-INDEX.md (L51) — - docs\status\HEALTH.md (L14) — - [#6](https://github.com/rickballard/CoAgent/issues/6) .NET as Declared BPOE Dependency [bpoe, todo]
+- docs\index\ADVICE-INDEX.md (L137) — - docs\index\TODO-INDEX.md (L52) — - docs\status\HEALTH.md (L15) — - [#7](https://github.com/rickballard/CoAgent/issues/7) Productization Next Bites [bpoe, todo, productization]
 
 ## HEALTH.md
-- docs\status\HEALTH.md (L6) — - Advice/TODO hits: 21 (TODO: 17)
+- docs\status\HEALTH.md (L6) — - Advice/TODO hits: 120 (TODO: 110)
 - docs\status\HEALTH.md (L9) — - [#1](https://github.com/rickballard/CoAgent/issues/1) Encrypt CoCache snapshots (v0.2) [bpoe, security, todo]
 - docs\status\HEALTH.md (L10) — - [#2](https://github.com/rickballard/CoAgent/issues/2) Tray UI for BPOE heartbeat/guard [bpoe, ui, todo]
 - docs\status\HEALTH.md (L11) — - [#3](https://github.com/rickballard/CoAgent/issues/3) Adapter envelopes for multi-AI [bpoe, interop, todo]
@@ -57,17 +156,110 @@ _Auto-generated; edit source files to change items._
 - docs\index\TODO-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
 - docs\index\TODO-INDEX.md (L7) — - docs\index\ADVICE-INDEX.md (L1) — # Advice / TODO Index
 - docs\index\TODO-INDEX.md (L8) — - docs\index\ADVICE-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
-- docs\index\TODO-INDEX.md (L9) — - docs\index\ADVICE-INDEX.md (L12) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
-- docs\index\TODO-INDEX.md (L10) — - docs\index\TODO-INDEX.md (L1) — # TODO Summary
-- docs\index\TODO-INDEX.md (L11) — - docs\index\TODO-INDEX.md (L3) — _Filtered to TODO/FIXME only._
-- docs\index\TODO-INDEX.md (L12) — - docs\index\TODO-INDEX.md (L5) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
-- docs\index\TODO-INDEX.md (L13) — - docs\index\TODO-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
-- docs\index\TODO-INDEX.md (L14) — - docs\status\HEALTH.md (L6) — - Advice/TODO hits: 4 (TODO: 2)
-- docs\index\TODO-INDEX.md (L15) — - docs\status\HEALTH.md (L9) — - [#1](https://github.com/rickballard/CoAgent/issues/1) Encrypt CoCache snapshots (v0.2) [bpoe, security, todo]
-- docs\index\TODO-INDEX.md (L16) — - docs\status\HEALTH.md (L10) — - [#2](https://github.com/rickballard/CoAgent/issues/2) Tray UI for BPOE heartbeat/guard [bpoe, ui, todo]
-- docs\index\TODO-INDEX.md (L17) — - docs\status\HEALTH.md (L11) — - [#3](https://github.com/rickballard/CoAgent/issues/3) Adapter envelopes for multi-AI [bpoe, interop, todo]
-- docs\index\TODO-INDEX.md (L18) — - docs\status\HEALTH.md (L12) — - [#4](https://github.com/rickballard/CoAgent/issues/4) Migration PR Plan: lift from CoCivium/CoModules [bpoe, todo]
-- docs\index\TODO-INDEX.md (L19) — - docs\status\HEALTH.md (L13) — - [#5](https://github.com/rickballard/CoAgent/issues/5) BPOE Policy: No Autostart & Consent Gate (enforced) [bpoe, security, todo]
-- docs\index\TODO-INDEX.md (L20) — - docs\status\HEALTH.md (L14) — - [#6](https://github.com/rickballard/CoAgent/issues/6) .NET as Declared BPOE Dependency [bpoe, todo]
-- docs\index\TODO-INDEX.md (L21) — - docs\status\HEALTH.md (L15) — - [#7](https://github.com/rickballard/CoAgent/issues/7) Productization Next Bites [bpoe, todo, productization]
+- docs\index\TODO-INDEX.md (L9) — - docs\index\ADVICE-INDEX.md (L9) — - docs\index\ADVICE-INDEX.md (L1) — # Advice / TODO Index
+- docs\index\TODO-INDEX.md (L10) — - docs\index\ADVICE-INDEX.md (L10) — - docs\index\ADVICE-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\TODO-INDEX.md (L11) — - docs\index\ADVICE-INDEX.md (L12) — - docs\index\ADVICE-INDEX.md (L9) — - docs\index\ADVICE-INDEX.md (L1) — # Advice / TODO Index
+- docs\index\TODO-INDEX.md (L12) — - docs\index\ADVICE-INDEX.md (L13) — - docs\index\ADVICE-INDEX.md (L10) — - docs\index\ADVICE-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\TODO-INDEX.md (L13) — - docs\index\ADVICE-INDEX.md (L15) — - docs\index\ADVICE-INDEX.md (L12) — - docs\index\ADVICE-INDEX.md (L12) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\TODO-INDEX.md (L14) — - docs\index\ADVICE-INDEX.md (L17) — - docs\index\ADVICE-INDEX.md (L16) — - docs\status\HEALTH.md (L6) — - Advice/TODO hits: 4 (TODO: 2)
+- docs\index\TODO-INDEX.md (L15) — - docs\index\ADVICE-INDEX.md (L18) — - docs\index\ADVICE-INDEX.md (L17) — - docs\status\HEALTH.md (L9) — - [#1](https://github.com/rickballard/CoAgent/issues/1) Encrypt CoCache snapshots (v0.2) [bpoe, security, todo]
+- docs\index\TODO-INDEX.md (L16) — - docs\index\ADVICE-INDEX.md (L19) — - docs\index\ADVICE-INDEX.md (L18) — - docs\status\HEALTH.md (L10) — - [#2](https://github.com/rickballard/CoAgent/issues/2) Tray UI for BPOE heartbeat/guard [bpoe, ui, todo]
+- docs\index\TODO-INDEX.md (L17) — - docs\index\ADVICE-INDEX.md (L20) — - docs\index\ADVICE-INDEX.md (L19) — - docs\status\HEALTH.md (L11) — - [#3](https://github.com/rickballard/CoAgent/issues/3) Adapter envelopes for multi-AI [bpoe, interop, todo]
+- docs\index\TODO-INDEX.md (L18) — - docs\index\ADVICE-INDEX.md (L21) — - docs\index\ADVICE-INDEX.md (L20) — - docs\status\HEALTH.md (L12) — - [#4](https://github.com/rickballard/CoAgent/issues/4) Migration PR Plan: lift from CoCivium/CoModules [bpoe, todo]
+- docs\index\TODO-INDEX.md (L19) — - docs\index\ADVICE-INDEX.md (L22) — - docs\index\ADVICE-INDEX.md (L21) — - docs\status\HEALTH.md (L13) — - [#5](https://github.com/rickballard/CoAgent/issues/5) BPOE Policy: No Autostart & Consent Gate (enforced) [bpoe, security, todo]
+- docs\index\TODO-INDEX.md (L20) — - docs\index\ADVICE-INDEX.md (L23) — - docs\index\ADVICE-INDEX.md (L22) — - docs\status\HEALTH.md (L14) — - [#6](https://github.com/rickballard/CoAgent/issues/6) .NET as Declared BPOE Dependency [bpoe, todo]
+- docs\index\TODO-INDEX.md (L21) — - docs\index\ADVICE-INDEX.md (L24) — - docs\index\ADVICE-INDEX.md (L23) — - docs\status\HEALTH.md (L15) — - [#7](https://github.com/rickballard/CoAgent/issues/7) Productization Next Bites [bpoe, todo, productization]
+- docs\index\TODO-INDEX.md (L22) — - docs\index\ADVICE-INDEX.md (L26) — - docs\index\ADVICE-INDEX.md (L29) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\TODO-INDEX.md (L23) — - docs\index\ADVICE-INDEX.md (L28) — - docs\index\ADVICE-INDEX.md (L34) — ## TODO-INDEX.md
+- docs\index\TODO-INDEX.md (L24) — - docs\index\ADVICE-INDEX.md (L29) — - docs\index\ADVICE-INDEX.md (L35) — - docs\index\TODO-INDEX.md (L1) — # TODO Summary
+- docs\index\TODO-INDEX.md (L25) — - docs\index\ADVICE-INDEX.md (L30) — - docs\index\ADVICE-INDEX.md (L36) — - docs\index\TODO-INDEX.md (L3) — _Filtered to TODO/FIXME only._
+- docs\index\TODO-INDEX.md (L26) — - docs\index\ADVICE-INDEX.md (L31) — - docs\index\ADVICE-INDEX.md (L37) — - docs\index\TODO-INDEX.md (L5) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\TODO-INDEX.md (L27) — - docs\index\ADVICE-INDEX.md (L32) — - docs\index\ADVICE-INDEX.md (L38) — - docs\index\TODO-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\TODO-INDEX.md (L28) — - docs\index\ADVICE-INDEX.md (L35) — - docs\status\HEALTH.md (L6) — - Advice/TODO hits: 21 (TODO: 17)
+- docs\index\TODO-INDEX.md (L29) — - docs\index\ADVICE-INDEX.md (L36) — - docs\status\HEALTH.md (L9) — - [#1](https://github.com/rickballard/CoAgent/issues/1) Encrypt CoCache snapshots (v0.2) [bpoe, security, todo]
+- docs\index\TODO-INDEX.md (L30) — - docs\index\ADVICE-INDEX.md (L37) — - docs\status\HEALTH.md (L10) — - [#2](https://github.com/rickballard/CoAgent/issues/2) Tray UI for BPOE heartbeat/guard [bpoe, ui, todo]
+- docs\index\TODO-INDEX.md (L31) — - docs\index\ADVICE-INDEX.md (L38) — - docs\status\HEALTH.md (L11) — - [#3](https://github.com/rickballard/CoAgent/issues/3) Adapter envelopes for multi-AI [bpoe, interop, todo]
+- docs\index\TODO-INDEX.md (L32) — - docs\index\ADVICE-INDEX.md (L39) — - docs\status\HEALTH.md (L12) — - [#4](https://github.com/rickballard/CoAgent/issues/4) Migration PR Plan: lift from CoCivium/CoModules [bpoe, todo]
+- docs\index\TODO-INDEX.md (L33) — - docs\index\ADVICE-INDEX.md (L40) — - docs\status\HEALTH.md (L13) — - [#5](https://github.com/rickballard/CoAgent/issues/5) BPOE Policy: No Autostart & Consent Gate (enforced) [bpoe, security, todo]
+- docs\index\TODO-INDEX.md (L34) — - docs\index\ADVICE-INDEX.md (L41) — - docs\status\HEALTH.md (L14) — - [#6](https://github.com/rickballard/CoAgent/issues/6) .NET as Declared BPOE Dependency [bpoe, todo]
+- docs\index\TODO-INDEX.md (L35) — - docs\index\ADVICE-INDEX.md (L42) — - docs\status\HEALTH.md (L15) — - [#7](https://github.com/rickballard/CoAgent/issues/7) Productization Next Bites [bpoe, todo, productization]
+- docs\index\TODO-INDEX.md (L36) — - docs\index\ADVICE-INDEX.md (L48) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\TODO-INDEX.md (L37) — - docs\index\ADVICE-INDEX.md (L53) — ## TODO-INDEX.md
+- docs\index\TODO-INDEX.md (L38) — - docs\index\ADVICE-INDEX.md (L54) — - docs\index\TODO-INDEX.md (L1) — # TODO Summary
+- docs\index\TODO-INDEX.md (L39) — - docs\index\ADVICE-INDEX.md (L55) — - docs\index\TODO-INDEX.md (L3) — _Filtered to TODO/FIXME only._
+- docs\index\TODO-INDEX.md (L40) — - docs\index\ADVICE-INDEX.md (L56) — - docs\index\TODO-INDEX.md (L5) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\TODO-INDEX.md (L41) — - docs\index\ADVICE-INDEX.md (L57) — - docs\index\TODO-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\TODO-INDEX.md (L42) — - docs\index\ADVICE-INDEX.md (L58) — - docs\index\TODO-INDEX.md (L7) — - docs\index\ADVICE-INDEX.md (L1) — # Advice / TODO Index
+- docs\index\TODO-INDEX.md (L43) — - docs\index\ADVICE-INDEX.md (L59) — - docs\index\TODO-INDEX.md (L8) — - docs\index\ADVICE-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\TODO-INDEX.md (L44) — - docs\index\ADVICE-INDEX.md (L60) — - docs\index\TODO-INDEX.md (L9) — - docs\index\ADVICE-INDEX.md (L12) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\TODO-INDEX.md (L45) — - docs\index\ADVICE-INDEX.md (L61) — - docs\index\TODO-INDEX.md (L10) — - docs\index\TODO-INDEX.md (L1) — # TODO Summary
+- docs\index\TODO-INDEX.md (L46) — - docs\index\ADVICE-INDEX.md (L62) — - docs\index\TODO-INDEX.md (L11) — - docs\index\TODO-INDEX.md (L3) — _Filtered to TODO/FIXME only._
+- docs\index\TODO-INDEX.md (L47) — - docs\index\ADVICE-INDEX.md (L63) — - docs\index\TODO-INDEX.md (L12) — - docs\index\TODO-INDEX.md (L5) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\TODO-INDEX.md (L48) — - docs\index\ADVICE-INDEX.md (L64) — - docs\index\TODO-INDEX.md (L13) — - docs\index\TODO-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\TODO-INDEX.md (L49) — - docs\index\ADVICE-INDEX.md (L65) — - docs\index\TODO-INDEX.md (L14) — - docs\status\HEALTH.md (L6) — - Advice/TODO hits: 4 (TODO: 2)
+- docs\index\TODO-INDEX.md (L50) — - docs\index\ADVICE-INDEX.md (L66) — - docs\index\TODO-INDEX.md (L15) — - docs\status\HEALTH.md (L9) — - [#1](https://github.com/rickballard/CoAgent/issues/1) Encrypt CoCache snapshots (v0.2) [bpoe, security, todo]
+- docs\index\TODO-INDEX.md (L51) — - docs\index\ADVICE-INDEX.md (L67) — - docs\index\TODO-INDEX.md (L16) — - docs\status\HEALTH.md (L10) — - [#2](https://github.com/rickballard/CoAgent/issues/2) Tray UI for BPOE heartbeat/guard [bpoe, ui, todo]
+- docs\index\TODO-INDEX.md (L52) — - docs\index\ADVICE-INDEX.md (L68) — - docs\index\TODO-INDEX.md (L17) — - docs\status\HEALTH.md (L11) — - [#3](https://github.com/rickballard/CoAgent/issues/3) Adapter envelopes for multi-AI [bpoe, interop, todo]
+- docs\index\TODO-INDEX.md (L53) — - docs\index\ADVICE-INDEX.md (L69) — - docs\index\TODO-INDEX.md (L18) — - docs\status\HEALTH.md (L12) — - [#4](https://github.com/rickballard/CoAgent/issues/4) Migration PR Plan: lift from CoCivium/CoModules [bpoe, todo]
+- docs\index\TODO-INDEX.md (L54) — - docs\index\ADVICE-INDEX.md (L70) — - docs\index\TODO-INDEX.md (L19) — - docs\status\HEALTH.md (L13) — - [#5](https://github.com/rickballard/CoAgent/issues/5) BPOE Policy: No Autostart & Consent Gate (enforced) [bpoe, security, todo]
+- docs\index\TODO-INDEX.md (L55) — - docs\index\ADVICE-INDEX.md (L71) — - docs\index\TODO-INDEX.md (L20) — - docs\status\HEALTH.md (L14) — - [#6](https://github.com/rickballard/CoAgent/issues/6) .NET as Declared BPOE Dependency [bpoe, todo]
+- docs\index\TODO-INDEX.md (L56) — - docs\index\ADVICE-INDEX.md (L72) — - docs\index\TODO-INDEX.md (L21) — - docs\status\HEALTH.md (L15) — - [#7](https://github.com/rickballard/CoAgent/issues/7) Productization Next Bites [bpoe, todo, productization]
+- docs\index\TODO-INDEX.md (L57) — - docs\index\TODO-INDEX.md (L1) — # TODO Summary
+- docs\index\TODO-INDEX.md (L58) — - docs\index\TODO-INDEX.md (L3) — _Filtered to TODO/FIXME only._
+- docs\index\TODO-INDEX.md (L59) — - docs\index\TODO-INDEX.md (L5) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\TODO-INDEX.md (L60) — - docs\index\TODO-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\TODO-INDEX.md (L61) — - docs\index\TODO-INDEX.md (L7) — - docs\index\ADVICE-INDEX.md (L1) — # Advice / TODO Index
+- docs\index\TODO-INDEX.md (L62) — - docs\index\TODO-INDEX.md (L8) — - docs\index\ADVICE-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\TODO-INDEX.md (L63) — - docs\index\TODO-INDEX.md (L9) — - docs\index\ADVICE-INDEX.md (L9) — - docs\index\ADVICE-INDEX.md (L1) — # Advice / TODO Index
+- docs\index\TODO-INDEX.md (L64) — - docs\index\TODO-INDEX.md (L10) — - docs\index\ADVICE-INDEX.md (L10) — - docs\index\ADVICE-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\TODO-INDEX.md (L65) — - docs\index\TODO-INDEX.md (L11) — - docs\index\ADVICE-INDEX.md (L12) — - docs\index\ADVICE-INDEX.md (L12) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\TODO-INDEX.md (L66) — - docs\index\TODO-INDEX.md (L12) — - docs\index\ADVICE-INDEX.md (L16) — - docs\status\HEALTH.md (L6) — - Advice/TODO hits: 4 (TODO: 2)
+- docs\index\TODO-INDEX.md (L67) — - docs\index\TODO-INDEX.md (L13) — - docs\index\ADVICE-INDEX.md (L17) — - docs\status\HEALTH.md (L9) — - [#1](https://github.com/rickballard/CoAgent/issues/1) Encrypt CoCache snapshots (v0.2) [bpoe, security, todo]
+- docs\index\TODO-INDEX.md (L68) — - docs\index\TODO-INDEX.md (L14) — - docs\index\ADVICE-INDEX.md (L18) — - docs\status\HEALTH.md (L10) — - [#2](https://github.com/rickballard/CoAgent/issues/2) Tray UI for BPOE heartbeat/guard [bpoe, ui, todo]
+- docs\index\TODO-INDEX.md (L69) — - docs\index\TODO-INDEX.md (L15) — - docs\index\ADVICE-INDEX.md (L19) — - docs\status\HEALTH.md (L11) — - [#3](https://github.com/rickballard/CoAgent/issues/3) Adapter envelopes for multi-AI [bpoe, interop, todo]
+- docs\index\TODO-INDEX.md (L70) — - docs\index\TODO-INDEX.md (L16) — - docs\index\ADVICE-INDEX.md (L20) — - docs\status\HEALTH.md (L12) — - [#4](https://github.com/rickballard/CoAgent/issues/4) Migration PR Plan: lift from CoCivium/CoModules [bpoe, todo]
+- docs\index\TODO-INDEX.md (L71) — - docs\index\TODO-INDEX.md (L17) — - docs\index\ADVICE-INDEX.md (L21) — - docs\status\HEALTH.md (L13) — - [#5](https://github.com/rickballard/CoAgent/issues/5) BPOE Policy: No Autostart & Consent Gate (enforced) [bpoe, security, todo]
+- docs\index\TODO-INDEX.md (L72) — - docs\index\TODO-INDEX.md (L18) — - docs\index\ADVICE-INDEX.md (L22) — - docs\status\HEALTH.md (L14) — - [#6](https://github.com/rickballard/CoAgent/issues/6) .NET as Declared BPOE Dependency [bpoe, todo]
+- docs\index\TODO-INDEX.md (L73) — - docs\index\TODO-INDEX.md (L19) — - docs\index\ADVICE-INDEX.md (L23) — - docs\status\HEALTH.md (L15) — - [#7](https://github.com/rickballard/CoAgent/issues/7) Productization Next Bites [bpoe, todo, productization]
+- docs\index\TODO-INDEX.md (L74) — - docs\index\TODO-INDEX.md (L20) — - docs\index\ADVICE-INDEX.md (L29) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\TODO-INDEX.md (L75) — - docs\index\TODO-INDEX.md (L21) — - docs\index\ADVICE-INDEX.md (L34) — ## TODO-INDEX.md
+- docs\index\TODO-INDEX.md (L76) — - docs\index\TODO-INDEX.md (L22) — - docs\index\ADVICE-INDEX.md (L35) — - docs\index\TODO-INDEX.md (L1) — # TODO Summary
+- docs\index\TODO-INDEX.md (L77) — - docs\index\TODO-INDEX.md (L23) — - docs\index\ADVICE-INDEX.md (L36) — - docs\index\TODO-INDEX.md (L3) — _Filtered to TODO/FIXME only._
+- docs\index\TODO-INDEX.md (L78) — - docs\index\TODO-INDEX.md (L24) — - docs\index\ADVICE-INDEX.md (L37) — - docs\index\TODO-INDEX.md (L5) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\TODO-INDEX.md (L79) — - docs\index\TODO-INDEX.md (L25) — - docs\index\ADVICE-INDEX.md (L38) — - docs\index\TODO-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\TODO-INDEX.md (L80) — - docs\index\TODO-INDEX.md (L26) — - docs\index\TODO-INDEX.md (L1) — # TODO Summary
+- docs\index\TODO-INDEX.md (L81) — - docs\index\TODO-INDEX.md (L27) — - docs\index\TODO-INDEX.md (L3) — _Filtered to TODO/FIXME only._
+- docs\index\TODO-INDEX.md (L82) — - docs\index\TODO-INDEX.md (L28) — - docs\index\TODO-INDEX.md (L5) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\TODO-INDEX.md (L83) — - docs\index\TODO-INDEX.md (L29) — - docs\index\TODO-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\TODO-INDEX.md (L84) — - docs\index\TODO-INDEX.md (L30) — - docs\index\TODO-INDEX.md (L7) — - docs\index\ADVICE-INDEX.md (L1) — # Advice / TODO Index
+- docs\index\TODO-INDEX.md (L85) — - docs\index\TODO-INDEX.md (L31) — - docs\index\TODO-INDEX.md (L8) — - docs\index\ADVICE-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\TODO-INDEX.md (L86) — - docs\index\TODO-INDEX.md (L32) — - docs\index\TODO-INDEX.md (L9) — - docs\index\ADVICE-INDEX.md (L12) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\TODO-INDEX.md (L87) — - docs\index\TODO-INDEX.md (L33) — - docs\index\TODO-INDEX.md (L10) — - docs\index\TODO-INDEX.md (L1) — # TODO Summary
+- docs\index\TODO-INDEX.md (L88) — - docs\index\TODO-INDEX.md (L34) — - docs\index\TODO-INDEX.md (L11) — - docs\index\TODO-INDEX.md (L3) — _Filtered to TODO/FIXME only._
+- docs\index\TODO-INDEX.md (L89) — - docs\index\TODO-INDEX.md (L35) — - docs\index\TODO-INDEX.md (L12) — - docs\index\TODO-INDEX.md (L5) — - .github\ISSUE_TEMPLATE\task.yml (L3) — labels: todo
+- docs\index\TODO-INDEX.md (L90) — - docs\index\TODO-INDEX.md (L36) — - docs\index\TODO-INDEX.md (L13) — - docs\index\TODO-INDEX.md (L6) — - docs\advisories\2025-09-10_intersession_orchestration.md (L36) — 2. Handoff: paste `BACKCHAT` handoff/TODO; chat converts top 3 into DO scripts and requests artifacts only.
+- docs\index\TODO-INDEX.md (L91) — - docs\index\TODO-INDEX.md (L37) — - docs\index\TODO-INDEX.md (L14) — - docs\status\HEALTH.md (L6) — - Advice/TODO hits: 4 (TODO: 2)
+- docs\index\TODO-INDEX.md (L92) — - docs\index\TODO-INDEX.md (L38) — - docs\index\TODO-INDEX.md (L15) — - docs\status\HEALTH.md (L9) — - [#1](https://github.com/rickballard/CoAgent/issues/1) Encrypt CoCache snapshots (v0.2) [bpoe, security, todo]
+- docs\index\TODO-INDEX.md (L93) — - docs\index\TODO-INDEX.md (L39) — - docs\index\TODO-INDEX.md (L16) — - docs\status\HEALTH.md (L10) — - [#2](https://github.com/rickballard/CoAgent/issues/2) Tray UI for BPOE heartbeat/guard [bpoe, ui, todo]
+- docs\index\TODO-INDEX.md (L94) — - docs\index\TODO-INDEX.md (L40) — - docs\index\TODO-INDEX.md (L17) — - docs\status\HEALTH.md (L11) — - [#3](https://github.com/rickballard/CoAgent/issues/3) Adapter envelopes for multi-AI [bpoe, interop, todo]
+- docs\index\TODO-INDEX.md (L95) — - docs\index\TODO-INDEX.md (L41) — - docs\index\TODO-INDEX.md (L18) — - docs\status\HEALTH.md (L12) — - [#4](https://github.com/rickballard/CoAgent/issues/4) Migration PR Plan: lift from CoCivium/CoModules [bpoe, todo]
+- docs\index\TODO-INDEX.md (L96) — - docs\index\TODO-INDEX.md (L42) — - docs\index\TODO-INDEX.md (L19) — - docs\status\HEALTH.md (L13) — - [#5](https://github.com/rickballard/CoAgent/issues/5) BPOE Policy: No Autostart & Consent Gate (enforced) [bpoe, security, todo]
+- docs\index\TODO-INDEX.md (L97) — - docs\index\TODO-INDEX.md (L43) — - docs\index\TODO-INDEX.md (L20) — - docs\status\HEALTH.md (L14) — - [#6](https://github.com/rickballard/CoAgent/issues/6) .NET as Declared BPOE Dependency [bpoe, todo]
+- docs\index\TODO-INDEX.md (L98) — - docs\index\TODO-INDEX.md (L44) — - docs\index\TODO-INDEX.md (L21) — - docs\status\HEALTH.md (L15) — - [#7](https://github.com/rickballard/CoAgent/issues/7) Productization Next Bites [bpoe, todo, productization]
+- docs\index\TODO-INDEX.md (L99) — - docs\index\TODO-INDEX.md (L45) — - docs\status\HEALTH.md (L6) — - Advice/TODO hits: 21 (TODO: 17)
+- docs\index\TODO-INDEX.md (L100) — - docs\index\TODO-INDEX.md (L46) — - docs\status\HEALTH.md (L9) — - [#1](https://github.com/rickballard/CoAgent/issues/1) Encrypt CoCache snapshots (v0.2) [bpoe, security, todo]
+- docs\index\TODO-INDEX.md (L101) — - docs\index\TODO-INDEX.md (L47) — - docs\status\HEALTH.md (L10) — - [#2](https://github.com/rickballard/CoAgent/issues/2) Tray UI for BPOE heartbeat/guard [bpoe, ui, todo]
+- docs\index\TODO-INDEX.md (L102) — - docs\index\TODO-INDEX.md (L48) — - docs\status\HEALTH.md (L11) — - [#3](https://github.com/rickballard/CoAgent/issues/3) Adapter envelopes for multi-AI [bpoe, interop, todo]
+- docs\index\TODO-INDEX.md (L103) — - docs\index\TODO-INDEX.md (L49) — - docs\status\HEALTH.md (L12) — - [#4](https://github.com/rickballard/CoAgent/issues/4) Migration PR Plan: lift from CoCivium/CoModules [bpoe, todo]
+- docs\index\TODO-INDEX.md (L104) — - docs\index\TODO-INDEX.md (L50) — - docs\status\HEALTH.md (L13) — - [#5](https://github.com/rickballard/CoAgent/issues/5) BPOE Policy: No Autostart & Consent Gate (enforced) [bpoe, security, todo]
+- docs\index\TODO-INDEX.md (L105) — - docs\index\TODO-INDEX.md (L51) — - docs\status\HEALTH.md (L14) — - [#6](https://github.com/rickballard/CoAgent/issues/6) .NET as Declared BPOE Dependency [bpoe, todo]
+- docs\index\TODO-INDEX.md (L106) — - docs\index\TODO-INDEX.md (L52) — - docs\status\HEALTH.md (L15) — - [#7](https://github.com/rickballard/CoAgent/issues/7) Productization Next Bites [bpoe, todo, productization]
+- docs\index\TODO-INDEX.md (L107) — - docs\status\HEALTH.md (L6) — - Advice/TODO hits: 55 (TODO: 48)
+- docs\index\TODO-INDEX.md (L108) — - docs\status\HEALTH.md (L9) — - [1](https://github.com/rickballard/CoAgent/issues/1) Encrypt CoCache snapshots (v0.2) [bpoe, security, todo]
+- docs\index\TODO-INDEX.md (L109) — - docs\status\HEALTH.md (L10) — - [2](https://github.com/rickballard/CoAgent/issues/2) Tray UI for BPOE heartbeat/guard [bpoe, ui, todo]
+- docs\index\TODO-INDEX.md (L110) — - docs\status\HEALTH.md (L11) — - [3](https://github.com/rickballard/CoAgent/issues/3) Adapter envelopes for multi-AI [bpoe, interop, todo]
+- docs\index\TODO-INDEX.md (L111) — - docs\status\HEALTH.md (L12) — - [4](https://github.com/rickballard/CoAgent/issues/4) Migration PR Plan: lift from CoCivium/CoModules [bpoe, todo]
+- docs\index\TODO-INDEX.md (L112) — - docs\status\HEALTH.md (L13) — - [5](https://github.com/rickballard/CoAgent/issues/5) BPOE Policy: No Autostart & Consent Gate (enforced) [bpoe, security, todo]
+- docs\index\TODO-INDEX.md (L113) — - docs\status\HEALTH.md (L14) — - [6](https://github.com/rickballard/CoAgent/issues/6) .NET as Declared BPOE Dependency [bpoe, todo]
+- docs\index\TODO-INDEX.md (L114) — - docs\status\HEALTH.md (L15) — - [7](https://github.com/rickballard/CoAgent/issues/7) Productization Next Bites [bpoe, todo, productization]
 
