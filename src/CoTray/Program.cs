@@ -21,8 +21,7 @@ namespace CoTray
         private static DateTime _lastUpdate = DateTime.MinValue;
 
         [STAThread]
-        static void Main()
-        {
+        static void Main()\n        {\n            // Consent gate: require explicit acceptance\n            var argsAccepted = Environment.GetCommandLineArgs().Any(a => string.Equals(a, "--accept", StringComparison.OrdinalIgnoreCase));\n            if (!(argsAccepted || HasAccepted()))\n            {\n                MessageBox.Show("CoTray runs only with explicit consent. Launch once with --accept or see docs/policy/AUTOSTART_AND_CONSENT.md", "CoAgent", MessageBoxButtons.OK, MessageBoxIcon.Information);\n                return;\n            }\n            if (argsAccepted) { RecordAcceptance(); }
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
@@ -167,3 +166,4 @@ namespace CoTray
         private static string EscapeForShell(string s) => $"\"{s.Replace("\"", "`\"")}\"";
     }
 }
+
