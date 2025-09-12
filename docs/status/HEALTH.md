@@ -1,9 +1,9 @@
 # Repo Health
 
-- Updated 2025-09-12 20:22:40Z — _via Write-RepoHealth_
+- Updated 2025-09-12 20:23:13Z — _via Write-RepoHealth_
 - GM PR bloat: 0 open gm/* PR(s)
 - Open issues: 7
-- Advice/TODO hits: 505 (TODO: 489)
+- Advice/TODO hits: 2041 (TODO: 2019)
 
 ## Open Issues
 - [1](https://github.com/rickballard/CoAgent/issues/1) Encrypt CoCache snapshots (v0.2) [bpoe, security, todo]
@@ -15,5 +15,5 @@
 - [7](https://github.com/rickballard/CoAgent/issues/7) Productization Next Bites [bpoe, todo, productization]
 
 ## Branches (local, newest first)
-- main (2025-09-12 20:21:57Z)
+- main (2025-09-12 20:22:42Z)
 
