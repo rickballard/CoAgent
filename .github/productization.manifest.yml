@@ -1,0 +1,19 @@
+﻿version: 1
+repos:
+  primary: rickballard/CoAgent
+code:
+  launcher: src/CoAgent.Launcher
+  tray: src/CoTray
+runtime:
+  consent: "%USERPROFILE%\\.CoAgent\\consent.json"
+  status_dir: "%USERPROFILE%\\CoTemps\\status"
+  cache_dir: "%USERPROFILE%\\CoCache"
+dependencies:
+  - Microsoft.DotNet.SDK.8
+  - Microsoft.PowerShell
+  - GitHub.cli
+policy:
+  consent_doc: docs/policy/AUTOSTART_AND_CONSENT.md
+  terms_draft: docs/legal/TERMS_DRAFT.md
+notes:
+  - "No autostart by default; all behavior is opt-in."
