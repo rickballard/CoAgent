@@ -1,28 +1,40 @@
-param([string]$Session = $env:COAGENT_SESSION, [switch]$WaitExec = $true)
+param(
+  [string]$Session = $env:COAGENT_SESSION,
+  [switch]$WaitExec = $true,
+  [switch]$AutoExec = $true
+)
 Set-StrictMode -Version Latest; $ErrorActionPreference='Stop'
-. "$PSScriptRoot\_spinner.ps1"
 
-# Title: first word of session
+. "$PSScriptRoot\_spinner.ps1"
+. "$PSScriptRoot\Set-CoTabTitle.ps1"
+. "$PSScriptRoot\Set-CoCursor.ps1"
+
 if ([string]::IsNullOrWhiteSpace($Session)) { $Session = 'CoAgent' }
 $env:COAGENT_SESSION = $Session
-. "$PSScriptRoot\Set-CoTabTitle.ps1"
 
-$repo = Join-Path $HOME 'Documents\GitHub\CoAgent'
-$e    = Join-Path $repo 'electron'
-$npx  = Join-Path $env:ProgramFiles 'nodejs\npx.cmd'
+$repo   = Join-Path $HOME 'Documents\GitHub\CoAgent'
+$e      = Join-Path $repo 'electron'
+$npx    = Join-Path $env:ProgramFiles 'nodejs\npx.cmd'
+$dist   = Join-Path $e 'dist'
+$unpack = Join-Path $e 'dist\win-unpacked'
 
 Invoke-WithSpinner "Stopping CoAgent/electron" {
   Get-Process CoAgent,electron -ErrorAction SilentlyContinue | Stop-Process -Force
 }
 
 Invoke-WithSpinner "Cleaning dist" {
-  Remove-Item -Recurse -Force (Join-Path $e 'dist') -ErrorAction SilentlyContinue
-}
+  param($dist) if (Test-Path $dist) { Remove-Item -Recurse -Force $dist -ErrorAction SilentlyContinue }
+} -ArgumentList @($dist)
 
 Invoke-WithSpinner "Building unpacked (dir)" {
-  Push-Location $e
-  & $npx electron-builder -w dir 2>&1 | Out-Null
-  Pop-Location
+  param($e,$npx) Push-Location $e; & $npx electron-builder -w dir 2>&1 | Out-Null; Pop-Location
+} -ArgumentList @($e,$npx)
+
+# ensure Exec is up (optional auto-start)
+if ($AutoExec) {
+  Invoke-WithSpinner "Ensuring Exec backend (ttyd) is running" {
+    & "$PSScriptRoot\Start-CoExec.ps1" | Out-Null
+  }
 }
 
 if ($WaitExec) {
@@ -40,5 +52,7 @@ if ($WaitExec) {
   }
 }
 
-$unpacked = Join-Path $e 'dist\win-unpacked'
-Start-Process (Join-Path $unpacked 'CoAgent.exe') -WorkingDirectory $unpacked
+. "$PSScriptRoot\Section-Banners.ps1"
+Start-Section "CoAgent launch"
+Start-Process (Join-Path $unpack 'CoAgent.exe') -WorkingDirectory $unpack
+End-Section "CoAgent launched"
