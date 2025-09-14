@@ -1,12 +1,21 @@
 {
   "name": "coagent-shell",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "description": "Temporary desktop shell for CoAgent MVP (Chat/Ops/Exec panes).",
+  "author": "CoCivium",
   "private": true,
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dist": "electron-builder -w portable"
+  },
+  "build": {
+    "appId": "org.cocivium.coagent",
+    "productName": "CoAgent",
+    "directories": { "output": "dist" }
   },
   "devDependencies": {
-    "electron": "^30.0.0"
+    "electron": "^30.0.0",
+    "electron-builder": "^24.13.3"
   }
 }
