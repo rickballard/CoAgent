@@ -30,3 +30,11 @@
     `;
   }
 })();
+/* CoAgent: KPI warn toggle when Exec missing */
+window.addEventListener('DOMContentLoaded', () => {
+  try {
+    const execSrc = (window.CoAgentPaneSrc||{}).exec;
+    const k = document.querySelector('.kpi');
+    if (k) k.classList.toggle('warn', !execSrc);
+  } catch {}
+});
