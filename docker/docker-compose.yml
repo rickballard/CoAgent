@@ -1,8 +1,8 @@
 ﻿services:
-  ttyd:
-    image: tsl0922/ttyd:latest
-    container_name: coagent-ttyd
-    command: ["ttyd","-p","7681","bash"]
+  ps7:
+    build: ./ps7-ttyd
+    image: coagent/ps7-ttyd:local
+    container_name: coagent-ps7
     ports:
       - "127.0.0.1:7681:7681"
     restart: unless-stopped
