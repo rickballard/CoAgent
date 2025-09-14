@@ -4,5 +4,5 @@
 )
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
-. "$PSScriptRoot\Start-CoInboxWatcher.ps1"
-Start-CoInboxWatcher -Inbox $Inbox -ToTag $ToTag
+
+& "$PSScriptRoot\Start-CoInboxWatcher.ps1" -Inbox $Inbox -ToTag $ToTag
