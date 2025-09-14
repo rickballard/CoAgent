@@ -1,7 +1,12 @@
 function Invoke-WithSpinner {
-  param([Parameter(Mandatory)][string]$Text,[Parameter(Mandatory)][scriptblock]$Block)
+  [CmdletBinding()]
+  param(
+    [Parameter(Mandatory)][string]$Text,
+    [Parameter(Mandatory)][scriptblock]$Block,
+    [object[]]$ArgumentList
+  )
   $frames = @("|","/","-","\"); $i = 0
-  $job = Start-Job $Block
+  $job = Start-Job -ScriptBlock $Block -ArgumentList $ArgumentList
   try {
     while ($job.State -eq 'Running') {
       Write-Host -NoNewline ("`r{0} {1}..." -f $frames[$i % $frames.Count], $Text)
