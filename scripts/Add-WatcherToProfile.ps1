@@ -1,9 +1,18 @@
-﻿param([Parameter(Mandatory)][string]$ToTag)
-Set-StrictMode -Version Latest
-$marker = "# >>> CoInboxWatcher (auto)"
+﻿param([Parameter(Mandatory=$true)][string]$ToTag)
 
-if (-not (Get-Content $PROFILE -ErrorAction SilentlyContinue | Select-String [regex]::Escape($marker))) {
-  Add-Content $PROFILE @"
+Set-StrictMode -Version Latest
+$ErrorActionPreference = "Stop"
+
+$marker = "# >>> CoInboxWatcher (auto)"
+# Read the profile as a single string to avoid pipeline binding quirks
+$profileText = try { Get-Content -LiteralPath $PROFILE -Raw -ErrorAction Stop } catch { "" }
+
+if ($profileText -notmatch [regex]::Escape($marker)) {
+  # Ensure directory exists
+  $profDir = Split-Path -Parent $PROFILE
+  if ($profDir) { New-Item -ItemType Directory -Force -Path $profDir | Out-Null }
+
+  Add-Content -LiteralPath $PROFILE -Encoding UTF8 @"
 $marker
 try {
   . `"$PSScriptRoot\Start-CoInboxWatcher.ps1`"
@@ -11,6 +20,7 @@ try {
 } catch {}
 # <<< CoInboxWatcher (auto)
 "@
+
   "Profile updated: $PROFILE"
 } else {
   "Profile already contains watcher block."
