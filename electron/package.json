@@ -7,15 +7,14 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "dist": "electron-builder -w portable"
-  },
-  "build": {
-    "appId": "org.cocivium.coagent",
-    "productName": "CoAgent",
-    "directories": { "output": "dist" }
+    "dist": "electron-builder -w portable",
+    "distdir": "electron-builder -w dir"
   },
   "devDependencies": {
     "electron": "^30.0.0",
     "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "icon": "build/icon.ico"
   }
 }

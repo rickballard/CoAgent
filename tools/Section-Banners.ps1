@@ -12,21 +12,23 @@ function Start-Section([string]$label){
 function End-Section([string]$label = "Done"){
   Write-Line 31; Write-Host " $label" -ForegroundColor Red; Write-Line 31
 }
-function Write-EndOfSet([string]$text = "End of set"){
-  $w = (Get-Width); $pad = [Math]::Max(0, $w - 1)
-  $bar = '─' * $pad
+function Write-EndOfSet([string]$text = "End of set") {
+  $esc = [char]27
+  $w   = try { $Host.UI.RawUI.WindowSize.Width } catch { 80 }
+  $bar = '─' * ($w - 1)
+
+  # three solid bands so it’s always obvious
+  $seg = [int]($bar.Length/3)
   for($i=0; $i -lt $bar.Length; $i++){
-    $h = [int](($i / [double]$bar.Length) * 360)
-    $c = 1; $x = 1 - [math]::Abs((($h / 60) % 2) - 1); $m = 0
-    switch ([int]($h/60)) {
-      0 { $r=$c;$g=$x;$b=0 } 1 { $r=$x;$g=$c;$b=0 } 2 { $r=0;$g=$c;$b=$x }
-      3 { $r=0;$g=$x;$b=$c } 4 { $r=$x;$g=0;$b=$c } default { $r=$c;$g=0;$b=$x }
-    }
-    $R=[int](($r+$m)*255); $G=[int](($g+$m)*255); $B=[int](($b+$m)*255)
-    Out-ANSI ("$esc[38;2;{0};{1};{2}m{3}" -f $R,$G,$B,$bar[$i])
+    if     ($i -lt $seg)       { $R,$G,$B = 255,0,0 }
+    elseif ($i -lt 2*$seg)     { $R,$G,$B = 0,255,0 }
+    else                       { $R,$G,$B = 0,0,255 }
+    Write-Host -NoNewline ("$esc[38;2;{0};{1};{2}m{3}" -f $R,$G,$B,$bar[$i])
   }
-  Write-Host "$esc[0m`n`n"
-  $center = [Math]::Max(0, ([int]((Get-Width)/2) - [int]($text.Length/2)) - 1)
-  Write-Host (" " * $center + $text) -ForegroundColor White -BackgroundColor DarkBlue
-  Write-Host "`n`n"
+  Write-Host "$esc[0m"
+  Write-Host ""
+  $pad = [Math]::Max(0, [int](($w - 1 - $text.Length)/2))
+  Write-Host (" " * $pad + $text) -ForegroundColor White -BackgroundColor DarkBlue
+  Write-Host ""
 }
+
