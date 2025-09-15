@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JobSpec",
+  "type": "object",
+  "required": [
+    "cmd"
+  ],
+  "properties": {
+    "image": {
+      "type": "string"
+    },
+    "cmd": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "env": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "workdir": {
+      "type": "string"
+    },
+    "mounts": {
+      "type": "array"
+    },
+    "limits": {
+      "type": "object"
+    },
+    "ttlSeconds": {
+      "type": "number"
+    },
+    "secrets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

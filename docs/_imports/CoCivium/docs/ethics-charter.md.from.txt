@@ -1,0 +1,5 @@
+ORIGIN:  C:\Users\Chris\Documents\GitHub\CoCivium\docs\ethics-charter.md
+HASH:    17997BF7598F9FB611EDF216E634D6CECB98AB7FF655663619FA141809AF90FA
+MOVED:   2025-09-12T18:33:47-04:00
+BY:      Chris@X1
+NOTE:    Temporary import. Grand Migration may delete after consolidation.

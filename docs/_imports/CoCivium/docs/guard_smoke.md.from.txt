@@ -1,0 +1,5 @@
+ORIGIN:  C:\Users\Chris\Documents\GitHub\CoCivium\docs\guard_smoke.md
+HASH:    D8500252A2C1D5E7796A6EA666F66C6D4BDC0B05741811C3D762519C09BBE2C8
+MOVED:   2025-09-12T18:33:47-04:00
+BY:      Chris@X1
+NOTE:    Temporary import. Grand Migration may delete after consolidation.

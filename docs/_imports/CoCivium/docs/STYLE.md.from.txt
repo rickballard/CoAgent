@@ -1,0 +1,5 @@
+ORIGIN:  C:\Users\Chris\Documents\GitHub\CoCivium\docs\STYLE.md
+HASH:    E1EDF2D9C0916FA301869046236F12DC8BD434292879ED44C41DAC57513CF530
+MOVED:   2025-09-12T18:33:47-04:00
+BY:      Chris@X1
+NOTE:    Temporary import. Grand Migration may delete after consolidation.

@@ -1,0 +1,5 @@
+ORIGIN:  C:\Users\Chris\Documents\GitHub\CoCivium\docs\BPOE.md
+HASH:    B3B0F9AF67386348F4BB4AB410A79DADB1B0392E8C266C87805D1F67B20B81E8
+MOVED:   2025-09-12T18:33:47-04:00
+BY:      Chris@X1
+NOTE:    Temporary import. Grand Migration may delete after consolidation.

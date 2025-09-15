@@ -1,0 +1,5 @@
+- M0 skeleton
+- M1 single AI/runner
+- M2 multi‑AI
+- M3 distribution & feedback
+- M4 Civium linkage

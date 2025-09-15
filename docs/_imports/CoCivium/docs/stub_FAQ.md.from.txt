@@ -1,0 +1,5 @@
+ORIGIN:  C:\Users\Chris\Documents\GitHub\CoCivium\docs\stub_FAQ.md
+HASH:    C51DABE8F3007E9179CA58AE6BA44CA73297FAB346E5CC24A0DAC4A91473D047
+MOVED:   2025-09-12T18:33:47-04:00
+BY:      Chris@X1
+NOTE:    Temporary import. Grand Migration may delete after consolidation.

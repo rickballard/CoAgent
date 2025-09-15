@@ -1,0 +1,22 @@
+[
+  {
+    "name": "migration",
+    "color": "0366d6",
+    "description": "Repo migration/copy tasks"
+  },
+  {
+    "name": "breadcrumbs",
+    "color": "5319e7",
+    "description": "Imported assets with sidecar breadcrumbs"
+  },
+  {
+    "name": "protocol:gibberlink",
+    "color": "0e8a16",
+    "description": "Gibberlink spec/issues"
+  },
+  {
+    "name": "guard:congruence",
+    "color": "c5def5",
+    "description": "Congruence Guard policy/UX"
+  }
+]

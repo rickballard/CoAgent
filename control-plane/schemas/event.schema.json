@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GibberlinkEvent",
+  "type": "object",
+  "required": [
+    "id",
+    "ts",
+    "type",
+    "actor",
+    "body"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "ts": {
+      "type": "number"
+    },
+    "type": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "actor": {
+      "type": "object"
+    },
+    "session": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "body": {
+      "type": "object"
+    },
+    "meta": {
+      "type": "object"
+    }
+  }
+}

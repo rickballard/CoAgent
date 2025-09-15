@@ -1,0 +1,5 @@
+ORIGIN:  C:\Users\Chris\Documents\GitHub\CoCivium\docs\succession-manifest.md
+HASH:    D0EA01B911D08F63032AE162BB1C72A964C4A82867B0521B173590BDA38313EE
+MOVED:   2025-09-12T18:33:47-04:00
+BY:      Chris@X1
+NOTE:    Temporary import. Grand Migration may delete after consolidation.
