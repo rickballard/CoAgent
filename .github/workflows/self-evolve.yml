@@ -1,8 +1,30 @@
 name: self-evolve
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "13 4 * * *"
+    - cron: "0 13 * * 1"
+  workflow_dispatch:
 jobs:
-  call:
-    uses: rickballard/CoCache/.github/workflows/bpoe-self-evolve.yml@main
+  evolve:
+    runs-on: ubuntu-latest
+    permissions: {contents: write, issues: write, pull-requests: write}
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - name: Setup PowerShell
+        uses: PowerShell/PowerShell@v1
+        with: {pwsh-version: '7.4.x'}
+      - name: SelfEvolve
+        shell: pwsh
+        run: ./tools/self-evolve/SelfEvolve.ps1 -RepoRoot "$PWD" -MaxIssues 5 -MaxFiles 5 -WhatIf:$false
+      - name: Generate weekly report
+        shell: pwsh
+        run: ./tools/self-evolve/Generate-WeeklyReport.ps1 -RepoRoot "$PWD" -OutDir "reports/weekly" -SinceDays 7
+      - name: Commit report
+        run: |
+          git config user.name "coagent-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/weekly
+          if ! git diff --cached --quiet; then
+            git commit -m "report(self-evolve): weekly summary"
+            git push || true
+          fi

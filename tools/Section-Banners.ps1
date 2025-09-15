@@ -12,10 +12,10 @@ function Start-Section([string]$label){
 function End-Section([string]$label = "Done"){
   Write-Line 31; Write-Host " $label" -ForegroundColor Red; Write-Line 31
 }
-function Write-EndOfSet([string]$text = "End of DO set") {
+function Write-EndOfSet([string]$text = "End of DO set", [switch]$Colorblind) {
   $esc = [char]27
   $w   = try { $Host.UI.RawUI.WindowSize.Width } catch { 80 }
-  $len = [Math]::Max(1, $w - 1)
+  $len = [Math]::Max(20, $w - 1)        # minimum length so it never looks stubby
   $bar = '─' * $len
 
   function Write-Rainbow([string]$s) {
@@ -29,23 +29,21 @@ function Write-EndOfSet([string]$text = "End of DO set") {
         3 { $r=0;$g=$x;$b=$c } 4 { $r=$x;$g=0;$b=$c } default { $r=$c;$g=0;$b=$x }
       }
       $R=[int]($r*255); $G=[int]($g*255); $B=[int]($b*255)
-      Write-Host -NoNewline ("$esc[38;2;{0};{1};{2}m{3}" -f $R,$G,$B,$s[$i])
+      Write-Host -NoNewline ("{0}[38;2;{1};{2};{3}m{4}" -f $esc,$R,$G,$B,$s[$i])
     }
-    Write-Host "$esc[0m"
+    Write-Host ("{0}[0m" -f $esc)
   }
 
-  # top rainbow
-  Write-Rainbow $bar
-
-  # centered label
+  if ($Colorblind) { Write-Host ("=" * $len) -ForegroundColor Yellow } else { Write-Rainbow $bar }
   Write-Host ""
   $pad = [Math]::Max(0, [int](($len - $text.Length)/2))
   Write-Host (" " * $pad + $text) -ForegroundColor White
   Write-Host ""
-
-  # bottom rainbow
-  Write-Rainbow $bar
+  if ($Colorblind) { Write-Host ("=" * $len) -ForegroundColor Yellow } else { Write-Rainbow $bar }
 }
 
 
 
+
+function End-Set([string]$Text = "End of DO set", [switch]$Colorblind) { Write-EndOfSet -text $Text -Colorblind:$Colorblind }
+Set-Alias EndOfSet End-Set -Scope Global

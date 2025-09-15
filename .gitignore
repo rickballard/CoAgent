@@ -3,3 +3,7 @@ node_modules/
 /dist
 /.env*
 work/
+electron/node_modules
+electron/dist
+electron/node_modules
+electron/dist
