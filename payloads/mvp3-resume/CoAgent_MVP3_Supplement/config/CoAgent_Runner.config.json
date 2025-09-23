@@ -1,0 +1,5 @@
+{
+  "maxUnzippedMB": 200,
+  "maxFiles": 1500,
+  "defaultTimeoutSec": 180
+}

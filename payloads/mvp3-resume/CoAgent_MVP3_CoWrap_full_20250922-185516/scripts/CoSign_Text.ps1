@@ -1,0 +1,1 @@
+param([string]$Text) Write-Output '{"sig":"placeholder"}'
