@@ -1,0 +1,1 @@
+Rick has CoAgent MVP2 running... (intro handshake text here).
