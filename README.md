@@ -1,4 +1,7 @@
-﻿# CoAgent
+## CoAgent MVP3 Plan
+
+See **docs/CoAgent_MVP3_Plan.md** for the current product plan, install modes (Temporary vs Permanent), zero-footprint behavior, and training flow.
+# CoAgent
 
 Vendor-independent **BPOE middleware**: mandatory offloading (CoCache/CoTemp), heartbeat/guard with [OE:<glyph>], and multi-AI adapter.
 **Scaffold only** — source-of-truth lives (for now) in:
@@ -68,3 +71,4 @@ Migration PRs will lift code/docs here; nothing moved yet.
 - Tracking issue: _“Migration PR Plan: lift from CoCivium/CoModules”_ (see repo issues)
 
 ---
+
