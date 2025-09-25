@@ -12,3 +12,4 @@ docs/status/bpoe-log.ndjson
 _vendor/
 
 *.sln
+tools/Start-MVP3-Orchestrator.ps1.bak_*
