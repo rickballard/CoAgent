@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8"/>
+<title>CoAgent Quad Mock (MVP3)</title>
+<style>
+  :root { --bg:#0b0f14; --fg:#e8f0ff; --mut:#93a1b1; --accent:#5eead4; }
+  * { box-sizing:border-box; font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif; }
+  body { margin:0; background:var(--bg); color:var(--fg); height:100vh; display:flex; flex-direction:column; }
+  header { padding:10px 14px; border-bottom:1px solid #223; display:flex; gap:12px; align-items:center; }
+  header h1 { font-size:16px; margin:0; letter-spacing:.3px; }
+  .bar { margin-left:auto; font-size:12px; color:var(--mut); }
+  main { flex:1; display:grid; grid-template-columns: 1fr 1fr; grid-template-rows: calc(100vh - 160px) 120px; gap:10px; padding:10px; }
+  .panel { border:1px solid #1e293b; border-radius:10px; background:#0e141c; display:flex; flex-direction:column; overflow:hidden; }
+  .panel h2 { margin:0; padding:10px 12px; font-size:13px; border-bottom:1px solid #1e293b; background:#0b1220; }
+  .panel .tabs { padding:8px 12px; font-size:12px; color:var(--mut); border-bottom:1px solid #1e293b; }
+  .panel .body { padding:12px; overflow:auto; font-size:13px; }
+  .status { grid-column:1 / span 2; }
+  code { background:#0a1320; padding:2px 6px; border-radius:6px; }
+</style>
+<header>
+  <h1>CoAgent — MVP3 Cockpit</h1>
+  <div class="bar">AUTH: linked · SAFEGUARDS: PR-first · UNDO: ready</div>
+</header>
+<main>
+  <section class="panel">
+    <h2>AI ▸ Sessions</h2>
+    <div class="tabs">[#mvp3-plan] [#strategy] [+ new]</div>
+    <div class="body">Prompting/reviews live here. Screenshots can be requested from Browser.</div>
+  </section>
+  <section class="panel">
+    <h2>PS7 ▸ Tasks</h2>
+    <div class="tabs">[link-up] [index] [mock-deploy]</div>
+    <div class="body"><code>gh auth status</code> · <code>repo index → CoCache/session/index.json</code> · logs fold here.</div>
+  </section>
+  <section class="panel">
+    <h2>Browser ▸ Latest Deliverable</h2>
+    <div class="tabs">[GitHub Link-Up Guide] [Quad Mock] [Plan]</div>
+    <div class="body">Render of current artifact; auto-refresh on file changes. Used for screenshotting/verif.</div>
+  </section>
+  <section class="panel status">
+    <h2>Status</h2>
+    <div class="body">
+      AUTH ok · SAFEGUARDS active · INDEX updated @ <code>2025-09-30T15:16:17</code> · UNDO hint: <code>gh pr revert &lt;#&gt;</code>
+    </div>
+  </section>
+</main>
+</html>
