@@ -68,3 +68,6 @@ Migration PRs will lift code/docs here; nothing moved yet.
 - Tracking issue: _“Migration PR Plan: lift from CoCivium/CoModules”_ (see repo issues)
 
 ---
+
+**Live UI mock:** https://rickballard.github.io/CoAgent/ui-mock/quad.html
+
