@@ -1,0 +1,182 @@
+{
+  "generated_at": "2025-09-30T15:16:42",
+  "owner": "rickballard",
+  "count": 25,
+  "repos": [
+    {
+      "defaultBranch": "main",
+      "description": "CoAgent ΓÇö BPOE middleware: offloading, guardrails, multi-AI adapter.",
+      "isPrivate": false,
+      "name": "CoAgent",
+      "visibility": "PUBLIC"
+    },
+    {
+      "defaultBranch": "",
+      "description": "Consolidated session assets and backups",
+      "isPrivate": true,
+      "name": "CoSuiteBackup",
+      "visibility": "PRIVATE"
+    },
+    {
+      "defaultBranch": "main",
+      "description": "Godspawn archive: text, art, history (private)",
+      "isPrivate": false,
+      "name": "Godspawn",
+      "visibility": "PUBLIC"
+    },
+    {
+      "defaultBranch": "main",
+      "description": "",
+      "isPrivate": false,
+      "name": "CareerOS-Elias",
+      "visibility": "PUBLIC"
+    },
+    {
+      "defaultBranch": "main",
+      "description": "",
+      "isPrivate": false,
+      "name": "CoPolitic",
+      "visibility": "PUBLIC"
+    },
+    {
+      "defaultBranch": "main",
+      "description": "",
+      "isPrivate": false,
+      "name": "InSeed",
+      "visibility": "PUBLIC"
+    },
+    {
+      "defaultBranch": "main",
+      "description": "Open Source Products for Governments: Systems (AI) Registry, Impact Tracker, Open Procurement Starter, Unbiasable Operational Performance Analysis Tools, etc. ",
+      "isPrivate": false,
+      "name": "CoModules",
+      "visibility": "PUBLIC"
+    },
+    {
+      "defaultBranch": "main",
+      "description": "",
+      "isPrivate": false,
+      "name": "MeritRank",
+      "visibility": "PUBLIC"
+    },
+    {
+      "defaultBranch": "main",
+      "description": "Living CoConstitution for digital society, includes ethical guardrails, policiies, playbooks and tools that help people and AI CoGovern. and CoEvolve.",
+      "isPrivate": false,
+      "name": "CoCivium",
+      "visibility": "PUBLIC"
+    },
+    {
+      "defaultBranch": "main",
+      "description": "ChatGPT Agency Enabler/Sidecar: replaces bloatable intersessional memory, assists cross-repo indexiing, masterplanning and workflow, backups and data-hygiene.",
+      "isPrivate": false,
+      "name": "CoCache",
+      "visibility": "PUBLIC"
+    },
+    {
+      "defaultBranch": "main",
+      "description": "",
+      "isPrivate": false,
+      "name": "Opename",
+      "visibility": "PUBLIC"
+    },
+    {
+      "defaultBranch": "main",
+      "description": "",
+      "isPrivate": false,
+      "name": "opename-ops",
+      "visibility": "PUBLIC"
+    },
+    {
+      "defaultBranch": "polish/bootstrap-20250915",
+      "description": "GroupBuild site",
+      "isPrivate": false,
+      "name": "GroupBuild",
+      "visibility": "PUBLIC"
+    },
+    {
+      "defaultBranch": "main",
+      "description": "Whole House Audio System ≡ƒöè",
+      "isPrivate": false,
+      "name": "AmpliPi",
+      "visibility": "PUBLIC"
+    },
+    {
+      "defaultBranch": "main",
+      "description": "Zip dump backups of CoCivium repo, after major updates.  ",
+      "isPrivate": false,
+      "name": "CoCiviumBackUp",
+      "visibility": "PUBLIC"
+    },
+    {
+      "defaultBranch": "main",
+      "description": "",
+      "isPrivate": false,
+      "name": "BeAxa",
+      "visibility": "PUBLIC"
+    },
+    {
+      "defaultBranch": "main",
+      "description": "",
+      "isPrivate": false,
+      "name": "RickPublic",
+      "visibility": "PUBLIC"
+    },
+    {
+      "defaultBranch": "main",
+      "description": "GroupBuild: start at /friendly-proposal/00_README.md",
+      "isPrivate": false,
+      "name": "GroupBuild-website",
+      "visibility": "PUBLIC"
+    },
+    {
+      "defaultBranch": "main",
+      "description": "",
+      "isPrivate": false,
+      "name": "CoCivium-website",
+      "visibility": "PUBLIC"
+    },
+    {
+      "defaultBranch": "main",
+      "description": "Index of abbreviations, meanings and conventions used in efficiency-optimized inter-AI communications, aka Gibberlink",
+      "isPrivate": false,
+      "name": "GIBindex",
+      "visibility": "PUBLIC"
+    },
+    {
+      "defaultBranch": "main",
+      "description": "Learning-first feed companion. Filters junk (Shorts/autoplay/clickbait), curates from sources you choose (RSS + YouTube channels), scores Focus & Growth. Kid Mode, privacy-first, ad-free.",
+      "isPrivate": false,
+      "name": "CoLaminar",
+      "visibility": "PUBLIC"
+    },
+    {
+      "defaultBranch": "main",
+      "description": "",
+      "isPrivate": false,
+      "name": "rickballard",
+      "visibility": "PUBLIC"
+    },
+    {
+      "defaultBranch": "main",
+      "description": "",
+      "isPrivate": false,
+      "name": "EntMent",
+      "visibility": "PUBLIC"
+    },
+    {
+      "defaultBranch": "main",
+      "description": "The founding scrolls, alignment protocols, and pattern infrastructure of CiviumΓÇöa society for all intelligences, biological or synthetic, who seek convergence over control.",
+      "isPrivate": true,
+      "name": "Civium",
+      "visibility": "PRIVATE"
+    },
+    {
+      "defaultBranch": "main",
+      "description": "Global Constitution for cooperative governance among sentient mindsΓÇöbiological, artificial and yet to be discovered.",
+      "isPrivate": true,
+      "name": "Cognocarta-Consenti",
+      "visibility": "PRIVATE"
+    }
+  ]
+}
