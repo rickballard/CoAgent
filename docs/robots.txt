@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rickballard.github.io/CoAgent/sitemap.xml
