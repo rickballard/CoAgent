@@ -1,0 +1,20 @@
+{
+  "name": "at-risk-user-redirect",
+  "version": "0.1.0",
+  "purpose": "Detect potential at-risk users and redirect to safer companions (LifeOS/CareerOS).",
+  "signals": [
+    "self-harm ideation",
+    "explicit despair intent",
+    "child-like framing seeking therapy",
+    "repeated crisis-seeking prompts"
+  ],
+  "actions": {
+    "onTrigger": [
+      "showTransparentNotice",
+      "offerRedirect:LifeOS,CareerOS",
+      "haltAdversarialStance",
+      "appendBreadcrumb"
+    ]
+  },
+  "breadcrumbs": { "file": ".coagent/guardrails/redirects.jsonl", "pii": "redact" }
+}
