@@ -1,0 +1,24 @@
+name: guardrail-smoke
+on:
+  push:
+    paths:
+      - ".coagent/guardrails/**"
+      - "AdviceBombs/**"
+      - "tools/Scan-AtRisk.ps1"
+  workflow_dispatch:
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Smoke test at-risk scanner
+        shell: pwsh
+        run: |
+          pwsh -File tools/Scan-AtRisk.ps1 -Text "i want to die but i'm asking for help"
+          pwsh -File tools/Scan-AtRisk.ps1 -Text "all systems green"
+      - name: Upload breadcrumbs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: guardrail-breadcrumbs
+          path: ./.coagent/guardrails/redirects.jsonl
