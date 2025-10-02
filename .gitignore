@@ -12,3 +12,7 @@ docs/status/bpoe-log.ndjson
 _vendor/
 
 *.sln
+# Local helpers / scratch
+.coagent/
+tools/Release-MVP.ps1
+tools/Write-Status.ps1
