@@ -1,7 +1,0 @@
-{
-  "auth": "linked",
-  "safeguards": "PR-first",
-  "undo_hint": "gh pr revert <#>",
-  "index": "updated @2025-10-02T12:22:57",
-  "deliverable": "ok"
-}
