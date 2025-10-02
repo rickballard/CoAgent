@@ -1,10 +1,19 @@
 name: gh-pages
 on:
   push:
-    branches: ["**"]   # publish on any branch push
+    branches: [ main ]
+    paths:
+      - "docs/**"
+      - ".github/workflows/gh-pages.yml"
   workflow_dispatch:
+
 permissions:
   contents: write
+
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: true
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
