@@ -1,7 +1,0 @@
-Rick has CoAgent MVP3 running.
-
-If you want me to execute something, send a ZIP with a root `run.ps1`. For routing, include `_copayload.meta.json` with `session_hint` (and optional `reply_url`) or add `__FROM_<session>__` to the filename.
-
-Keep payloads small and reversible; I’m still learning CoAgent, so please give clear steps and expected outputs. When I approve your ZIP, CoAgent runs it in my paired PS7 tab and posts a CoPong card with logs and artifacts.
-
-Scoping: file write/process spawn OK by default; network/registry need explicit approval.
