@@ -1,0 +1,24 @@
+<!doctype html><meta charset="utf-8"><title>CoAgent Status</title>
+<style>
+  body{font:14px/1.4 system-ui,Segoe UI,Arial;margin:24px;color:#111}
+  .card{border:1px solid #ddd;border-radius:12px;padding:16px;max-width:720px}
+  .k{color:#666;width:160px;display:inline-block}
+  code{background:#f6f8fa;padding:2px 6px;border-radius:6px}
+</style>
+<h1>CoAgent · Status</h1>
+<div class="card" id="card"><em>Loading status.json…</em></div>
+<script>
+(async()=>{
+  const el=document.getElementById('card');
+  try{
+    const r=await fetch('./status.json', {cache:'no-store'});
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    const j=await r.json();
+    el.innerHTML = Object.entries(j).map(([k,v]) =>
+      `<div><span class="k">${k}</span> <code>${(typeof v=='object')?JSON.stringify(v):v}</code></div>`
+    ).join('');
+  }catch(e){
+    el.innerHTML = `<b>Could not load status.json</b><br><code>${e}</code>`;
+  }
+})();
+</script>
