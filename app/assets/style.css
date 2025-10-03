@@ -23,3 +23,7 @@ nav.tabs{display:flex;gap:6px;margin-top:8px}
 nav.tabs a{padding:8px 10px;border:1px solid #e5e7eb;border-radius:10px;text-decoration:none;color:#0f172a;background:#fff}
 nav.tabs a.active{border-color:var(--brand-primary);color:var(--brand-primary);background:#eef2ff}
 
+#status-net[data-ok="1"]::before { content:"● "; color:#16a34a }
+#status-net[data-ok="0"]::before { content:"● "; color:#ef4444 }
+#status-export { margin-left:8px; text-decoration:underline; opacity:.85; }
+#status-export:hover { opacity:1; }
