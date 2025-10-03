@@ -1,0 +1,7 @@
+{
+  "notes": "CoCivium sandbox preset. Tools should avoid outbound network.",
+  "net": {
+    "egress": false
+  },
+  "updated": "2025-10-02T20:53:48"
+}
