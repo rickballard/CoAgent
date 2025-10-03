@@ -4,6 +4,11 @@
 <link rel="stylesheet" href="./assets/style.css">
 <header>
   <img src="./assets/logo.png" alt="logo"><h1>CoAgent</h1>
+<div id="statusbar" style="display:flex;gap:12px;align-items:center;margin:.5rem 0;padding:.4rem .6rem;border:1px solid #e5e7eb;border-radius:10px">
+  <span class="status">⏱ <span id="status-clock">--:--:--</span></span>
+  <span class="status">⛭ v<span id="status-version">dev</span></span>
+  <span class="status">✱ <span id="status-net">Checking…</span></span>
+</div>
 </header>
 <main>
   <div class="card">
@@ -26,6 +31,7 @@
     </ul>
   </div>
 </main>
+<script src="./status.js"></script>
 <script>
   const status = document.querySelector('#status');
   document.querySelector('#selfcheck').onclick = () => {
@@ -34,4 +40,5 @@
   };
   document.querySelector('#help').href = 'https://rickballard.github.io/CoAgent/status.html'; // swap to HELP.md on Pages if desired
 </script>
+
 
