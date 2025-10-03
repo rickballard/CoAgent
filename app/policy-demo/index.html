@@ -23,6 +23,7 @@
     </div>
   </div>
 </main>
+<script src="../logger.js"></script>
 <script>
 const f=document.querySelector('#f'), out=document.querySelector('#out'), card=document.querySelector('#card');
 f.onsubmit=(e)=>{e.preventDefault();
@@ -39,3 +40,47 @@ document.querySelector('#finish').onclick=()=>{
   alert('Saved locally for demo. Connected mode will submit into your CoCivium sandbox.');
 };
 </script>
+<script>
+// connected submit helper (no-op offline)
+async function sandboxSubmit(payload){
+  const root = location.pathname.includes("/policy-demo/") ? "../" : "./";
+  let cfg = { mode: "offline", sandboxUrl: "" };
+  try { cfg = await fetch(root + "config.json").then(r=>r.json()); } catch {}
+  let mode = "offline";
+  try { mode = localStorage.getItem("coagent.sandbox.mode") || (cfg.mode==="online"?"online":"offline"); } catch {}
+  if (mode !== "online" || !cfg.sandboxUrl) return {ok:false, offline:true};
+
+  try {
+    const res = await fetch(cfg.sandboxUrl, {
+      method: "POST",
+      headers: {"content-type":"application/json"},
+      body: JSON.stringify({ type:"policy_idea", ts: new Date().toISOString(), data: payload })
+    });
+    return res.ok ? {ok:true} : {ok:false};
+  } catch { return {ok:false}; }
+}
+(() => {
+  const finish = document.querySelector("#finish");
+  const formEl = document.querySelector("#f");
+  if (!finish || !formEl) return;
+
+  finish.addEventListener("click", async () => {
+    const d = Object.fromEntries(new FormData(formEl).entries());
+    const payload = {
+      title: d.title || "", area: d.area || "",
+      desc: (d.desc || "").trim(),
+      tags: (d.tags || "").split(",").map(t=>t.trim()).filter(Boolean)
+    };
+    let res; try {
+      window.CoLog?.log("policy_submit_start", { titleChars: payload.title.length });
+      res = await sandboxSubmit(payload);
+    } finally {
+      window.CoLog?.log("policy_submit_finish", { ok: !!res?.ok, offline: !!res?.offline });
+    }
+    if (res?.offline)      alert("Saved locally (demo). Enable Sandbox to submit to CoCivium.");
+    else if (res?.ok)      alert("Submitted to CoCivium sandbox. Thank you!");
+    else                   alert("Could not submit right now. It will stay local.");
+  });
+})();
+</script>
+
