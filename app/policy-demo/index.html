@@ -2,7 +2,12 @@
 <title>CoAgent • Policy Track (Offline Demo)</title>
 <link rel="icon" href="../assets/favicon.ico">
 <link rel="stylesheet" href="../assets/style.css">
-<header><img src="../assets/logo.png" alt="logo"><h1>Policy Track (Demo)</h1></header>
+<header><img src="../assets/logo.png" alt="logo"><h1>Policy Track (Demo)</h1><div id="statusbar" style="display:flex;gap:12px;align-items:center;margin:.5rem 0;padding:.4rem .6rem;border:1px solid #e5e7eb;border-radius:10px">
+  <span class="status">⏱ <span id="status-clock">--:--:--</span></span>
+  <span class="status">⛭ v<span id="status-version">dev</span></span>
+  <span class="status">✱ <span id="status-net">Checking…</span></span>
+</div>
+</header>
 <main>
   <div class="card">
     <h2 style="margin:0 0 6px 0;">Propose a neighborhood idea</h2>
@@ -23,6 +28,7 @@
     </div>
   </div>
 </main>
+<script src="../status.js"></script>
 <script>
 const f=document.querySelector('#f'), out=document.querySelector('#out'), card=document.querySelector('#card');
 f.onsubmit=(e)=>{e.preventDefault();
@@ -39,3 +45,4 @@ document.querySelector('#finish').onclick=()=>{
   alert('Saved locally for demo. Connected mode will submit into your CoCivium sandbox.');
 };
 </script>
+
