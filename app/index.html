@@ -1,0 +1,36 @@
+<!doctype html><meta charset="utf-8">
+<title>CoAgent – Welcome</title>
+<link rel="icon" href="./assets/favicon.ico">
+<link rel="stylesheet" href="./assets/style.css">
+<header>
+  <img src="./assets/logo.png" alt="logo"><h1>CoAgent</h1>
+</header>
+<main>
+  <div class="card">
+    <h2 style="margin:0 0 6px 0;">Start here</h2>
+    <div class="progress" title="thinking-safe progress"><i></i></div>
+    <p class="status" id="status">Ready • Training-first flow • Offline-safe</p>
+    <div style="display:flex;gap:8px;margin-top:8px;">
+      <a class="btn primary" href="./training/index.html">Start Guided Training</a>
+      <a class="btn" id="selfcheck">Run Self-Check</a>
+      <a class="btn" id="help" target="_blank">Open Help</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3 style="margin:0 0 6px 0;">What you’ll see</h3>
+    <ul>
+      <li>Guided steps with a live status tray (rainbow motion shows work-in-progress).</li>
+      <li>Download button (from GitHub Pages/Release) when published.</li>
+      <li>No PowerShell required for end users (they double-click a launcher).</li>
+    </ul>
+  </div>
+</main>
+<script>
+  const status = document.querySelector('#status');
+  document.querySelector('#selfcheck').onclick = () => {
+    status.textContent = 'Running checks…';
+    setTimeout(()=>status.textContent='All core checks passed • Demo mode', 900);
+  };
+  document.querySelector('#help').href = 'https://rickballard.github.io/CoAgent/status.html'; // swap to HELP.md on Pages if desired
+</script>

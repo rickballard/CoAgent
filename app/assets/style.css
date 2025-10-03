@@ -1,0 +1,23 @@
+:root {
+  --brand-primary: #4F46E5; /* indigo */
+  --brand-accent:  #06B6D4; /* cyan */
+  --brand-good:    #22C55E; /* green */
+  --brand-warn:    #F59E0B; /* amber */
+  --brand-bad:     #EF4444; /* red */
+  --brand-gradient: linear-gradient(90deg,#ef4444,#f59e0b,#22c55e,#06b6d4,#4f46e5);
+}
+body{font-family: ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;color:#0f172a;background:#ffffff;}
+header{display:flex;align-items:center;gap:.75rem;padding:16px 20px;border-bottom:1px solid #e2e8f0;background:#ffffff;position:sticky;top:0}
+header img{height:28px;width:28px;border-radius:6px}
+h1{font-size:18px;margin:0}
+main{max-width:960px;margin:24px auto;padding:0 20px}
+.card{border:1px solid #e2e8f0;border-radius:14px;padding:16px 18px;margin:14px 0;background:#fff}
+.btn{display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid #e2e8f0;background:#fff;text-decoration:none;color:#111827}
+.btn.primary{background:var(--brand-primary);border-color:var(--brand-primary);color:#fff}
+.progress{height:6px;border-radius:999px;background:#e5e7eb;overflow:hidden}
+.progress > i{display:block;height:100%;width:35%;background:var(--brand-gradient);background-size:200% 100%;animation:flow 2.2s linear infinite}
+@keyframes flow{0%{background-position:0%}100%{background-position:200%}}
+.status{font-size:12px;color:#334155}
+nav.tabs{display:flex;gap:6px;margin-top:8px}
+nav.tabs a{padding:8px 10px;border:1px solid #e5e7eb;border-radius:10px;text-decoration:none;color:#0f172a;background:#fff}
+nav.tabs a.active{border-color:var(--brand-primary);color:var(--brand-primary);background:#eef2ff}
