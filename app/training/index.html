@@ -1,0 +1,44 @@
+<!doctype html><meta charset="utf-8">
+<title>CoAgent – Guided Training</title>
+<link rel="icon" href="../assets/favicon.ico">
+<link rel="stylesheet" href="../assets/style.css">
+<header>
+  <img src="../assets/logo.png" alt="logo"><h1>CoAgent • Training</h1>
+</header>
+<main>
+  <nav class="tabs">
+    <a class="active" href="./index.html">Overview</a>
+    <a href="../index.html">Home</a>
+  </nav>
+
+  <div class="card">
+    <h2 style="margin:0 0 6px 0;">Guided steps</h2>
+    <ol id="steps" style="margin:0 0 8px 18px;">
+      <li>Welcome & orientation</li>
+      <li>Run self-check (no network needed)</li>
+      <li>Explore mock “policy idea” track (offline demo)</li>
+      <li>Ready for connected mode (repo/Pages)</li>
+    </ol>
+    <div class="progress"><i></i></div>
+    <p class="status" id="tstatus">Step 1/4 • Ready</p>
+    <div style="display:flex;gap:8px;margin-top:8px;">
+      <a class="btn primary" id="next">Next</a>
+      <a class="btn" href="../index.html">Back</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3 style="margin:0 0 6px 0;">Notes</h3>
+    <ul>
+      <li>This is an MVP shell—brand assets will replace placeholders.</li>
+      <li>Online “policy track” loads when connected to your CoCivium sandbox.</li>
+    </ul>
+  </div>
+</main>
+<script>
+let step=1; const total=4; const st=document.querySelector('#tstatus');
+document.querySelector('#next').onclick=()=>{
+  step=Math.min(total,step+1);
+  st.textContent = `Step ${step}/${total} • ${(step==total)?'Complete':'In progress'}`;
+};
+</script>
