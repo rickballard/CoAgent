@@ -4,6 +4,16 @@
 <link rel="stylesheet" href="../assets/style.css">
 <header>
   <img src="../assets/logo.png" alt="logo"><h1>CoAgent • Training</h1>
+  <div style="margin-left:auto;display:flex;gap:10px;align-items:center">
+    <label class="status">Sandbox
+      <select id="sandbox-toggle" style="margin-left:6px">
+        <option value="offline">Off</option>
+        <option value="online">On</option>
+      </select>
+    </label>
+    <a class="btn" href="../help/index.html">Help</a>
+  </div>
+  <img src="../assets/logo.png" alt="logo"><h1>CoAgent • Training</h1>
 </header>
 <main>
   <nav class="tabs">
@@ -35,10 +45,11 @@
     </ul>
   </div>
 </main>
-<script>
+<script src="../sandbox.js"></script>
 let step=1; const total=4; const st=document.querySelector('#tstatus');
 document.querySelector('#next').onclick=()=>{
   step=Math.min(total,step+1);
   st.textContent = `Step ${step}/${total} • ${(step==total)?'Complete':'In progress'}`;
 };
 </script>
+
