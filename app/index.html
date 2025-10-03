@@ -4,6 +4,15 @@
 <link rel="stylesheet" href="./assets/style.css">
 <header>
   <img src="./assets/logo.png" alt="logo"><h1>CoAgent</h1>
+  <div style="margin-left:auto;display:flex;gap:10px;align-items:center">
+    <label class="status">Sandbox
+      <select id="sandbox-toggle" style="margin-left:6px">
+        <option value="offline">Off</option>
+        <option value="online">On</option>
+      </select>
+    </label>
+    <a class="btn" href="./help/index.html">Help</a>
+  </div>
 </header>
 <main>
   <div class="card">
@@ -26,6 +35,7 @@
     </ul>
   </div>
 </main>
+<script src="./sandbox.js"></script>
 <script>
   const status = document.querySelector('#status');
   document.querySelector('#selfcheck').onclick = () => {
@@ -34,4 +44,5 @@
   };
   document.querySelector('#help').href = 'https://rickballard.github.io/CoAgent/status.html'; // swap to HELP.md on Pages if desired
 </script>
+
 
