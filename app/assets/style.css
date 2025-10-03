@@ -1,3 +1,4 @@
+@import url("./brand.css");
 :root {
   --brand-primary: #4F46E5; /* indigo */
   --brand-accent:  #06B6D4; /* cyan */
@@ -21,3 +22,4 @@ main{max-width:960px;margin:24px auto;padding:0 20px}
 nav.tabs{display:flex;gap:6px;margin-top:8px}
 nav.tabs a{padding:8px 10px;border:1px solid #e5e7eb;border-radius:10px;text-decoration:none;color:#0f172a;background:#fff}
 nav.tabs a.active{border-color:var(--brand-primary);color:var(--brand-primary);background:#eef2ff}
+

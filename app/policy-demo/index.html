@@ -1,0 +1,41 @@
+<!doctype html><meta charset="utf-8">
+<title>CoAgent • Policy Track (Offline Demo)</title>
+<link rel="icon" href="../assets/favicon.ico">
+<link rel="stylesheet" href="../assets/style.css">
+<header><img src="../assets/logo.png" alt="logo"><h1>Policy Track (Demo)</h1></header>
+<main>
+  <div class="card">
+    <h2 style="margin:0 0 6px 0;">Propose a neighborhood idea</h2>
+    <form id="f" style="display:grid;gap:10px;max-width:680px">
+      <label> Title <input required name="title" style="width:100%"></label>
+      <label> Area / street(s) <input name="area" style="width:100%"></label>
+      <label> Description <textarea required name="desc" rows="5" style="width:100%"></textarea></label>
+      <label> Tags (comma-separated) <input name="tags" style="width:100%"></label>
+      <button class="btn primary" type="submit">Preview</button>
+    </form>
+  </div>
+  <div class="card" id="out" style="display:none">
+    <h3 style="margin:0 0 6px 0;">Preview</h3>
+    <div id="card"></div>
+    <div style="margin-top:10px;display:flex;gap:8px">
+      <a class="btn" href="./index.html">Edit</a>
+      <a class="btn primary" id="finish">Looks good</a>
+    </div>
+  </div>
+</main>
+<script>
+const f=document.querySelector('#f'), out=document.querySelector('#out'), card=document.querySelector('#card');
+f.onsubmit=(e)=>{e.preventDefault();
+  const d=Object.fromEntries(new FormData(f).entries());
+  card.innerHTML = `
+    <div style="border:1px solid #e5e7eb;border-radius:12px;padding:12px">
+      <div style="font-weight:600;margin-bottom:6px">${d.title||'(untitled)'} ${d.area?`• <span style="color:#64748b">${d.area}</span>`:''}</div>
+      <div style="white-space:pre-wrap;margin-bottom:6px">${(d.desc||'').trim()}</div>
+      ${d.tags?`<div class="status">tags: ${d.tags}</div>`:''}
+    </div>`;
+  f.style.display='none'; out.style.display='block';
+};
+document.querySelector('#finish').onclick=()=>{
+  alert('Saved locally for demo. Connected mode will submit into your CoCivium sandbox.');
+};
+</script>
