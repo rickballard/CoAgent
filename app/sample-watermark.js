@@ -1,12 +1,36 @@
 (function(){
   try{
     var qp = new URLSearchParams(location.search);
-    var byQuery = qp.get("sample")==="1";
-    var byAttr  = document.body && (document.body.getAttribute("data-sample")==="1");
-    var wmText  = qp.get("wm");           // optional: ?wm=DEMO or ?wm=PREVIEW
-    if(byQuery || byAttr){
+    var qSample = qp.get("sample");            // "1" to enable, "0" to disable
+    var byQueryOn  = (qSample === "1");
+    var byQueryOff = (qSample === "0");
+    var byAttr = document.body && (document.body.getAttribute("data-sample")==="1");
+    var wmText = qp.get("wm");                 // optional custom text
+
+    function enableSample(text){
       document.body.classList.add("is-sample");
-      if(wmText){ document.body.setAttribute("data-watermark", wmText); }
+      if(text){ document.body.setAttribute("data-watermark", text); }
     }
+    function disableSample(){
+      document.body.classList.remove("is-sample");
+      document.body.removeAttribute("data-watermark");
+    }
+
+    if(byQueryOff){
+      disableSample();
+    } else if(byQueryOn || byAttr){
+      enableSample(wmText);
+    }
+
+    // Keyboard toggle: Alt+S
+    document.addEventListener("keydown", function(e){
+      if(e.altKey && (e.key === "s" || e.key === "S")){
+        if(document.body.classList.contains("is-sample")){
+          disableSample();
+        } else {
+          enableSample(wmText || "SAMPLE");
+        }
+      }
+    });
   }catch(e){}
 })();

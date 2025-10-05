@@ -10,3 +10,8 @@ body.is-sample::before{
 @media (max-width:600px){
   body.is-sample::before{ font-size:3rem; letter-spacing:.25rem; }
 }
+
+/* Fallback when no data-watermark attribute is present */
+body.is-sample:not([data-watermark])::before{
+  content:"SAMPLE";
+}
