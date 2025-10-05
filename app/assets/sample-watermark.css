@@ -1,0 +1,12 @@
+/* SAMPLE watermark (toggle with ?sample=1 or data-sample="1"; override text via ?wm=TEXT) */
+body.is-sample::before{
+  content: attr(data-watermark, "SAMPLE");
+  position:fixed; inset:0; pointer-events:none;
+  display:flex; align-items:center; justify-content:center;
+  font:700 6rem/1 system-ui, Segoe UI, Arial;
+  color:#00000022; transform:rotate(-24deg); letter-spacing:.5rem;
+  z-index:2147483647;
+}
+@media (max-width:600px){
+  body.is-sample::before{ font-size:3rem; letter-spacing:.25rem; }
+}
