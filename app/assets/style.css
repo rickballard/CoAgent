@@ -23,7 +23,16 @@ nav.tabs{display:flex;gap:6px;margin-top:8px}
 nav.tabs a{padding:8px 10px;border:1px solid #e5e7eb;border-radius:10px;text-decoration:none;color:#0f172a;background:#fff}
 nav.tabs a.active{border-color:var(--brand-primary);color:var(--brand-primary);background:#eef2ff}
 
+<<<<<<< Updated upstream
 #status-net[data-ok="1"]::before { content:"● "; color:#16a34a }
 #status-net[data-ok="0"]::before { content:"● "; color:#ef4444 }
 #status-export { margin-left:8px; text-decoration:underline; opacity:.85; }
 #status-export:hover { opacity:1; }
+=======
+.panel { border:1px solid #e5e7eb; border-radius:12px; margin:.5rem 0; }
+.panel-head { display:flex; align-items:center; justify-content:space-between; padding:.4rem .6rem; border-bottom:1px solid #eef2f7; border-radius:12px 12px 0 0; background:#fafafa; }
+.panel-title { font-weight:600; opacity:.9; }
+.panel-actions { display:flex; gap:.35rem; }
+.panel-btn { border:1px solid #e5e7eb; border-radius:8px; padding:.2rem .45rem; cursor:pointer; }
+.panel[data-ping="1"] .panel-head { outline:2px solid #93c5fd; transition:outline 180ms; }
+>>>>>>> Stashed changes

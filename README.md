@@ -1,4 +1,4 @@
-﻿# CoAgent
+# CoAgent
 
 Vendor-independent **BPOE middleware**: mandatory offloading (CoCache/CoTemp), heartbeat/guard with [OE:<glyph>], and multi-AI adapter.
 **Scaffold only** — source-of-truth lives (for now) in:
@@ -73,3 +73,14 @@ Migration PRs will lift code/docs here; nothing moved yet.
 - **Status panel:** https://rickballard.github.io/CoAgent/status.html (reads \status.json\)
 - **Guardrails:** see \.coagent/guardrails/\ and smoke workflow.
 
+
+
+# Disclaimer on Memory Handling & Service Interop
+
+CoAgent deliberately externalizes memory and state, bypassing or overriding built-in AI memory services. This is a user-centric safeguard against corruption, vendor lock-in, and opacity.
+
+We encourage all platform and container providers to evolve in parallel with these practices. Our approach is not intended to undermine or devalue their services, but to guarantee continuity, transparency, and reproducibility for **CoCivium-aligned users**.
+
+Any overlap with vendor-patented or proprietary features is incidental. Our implementation exists only to protect user autonomy and ensure that CoCivium remains resilient regardless of service availability or policy changes.
+
+We are open to collaboration and licensing discussions; in fact we **actively support forking and distributed ownership** of our products, features, and ideas; **but we will always protect the people before all else**, and thus **we reserve all available rights to retain parallel implementations** for redundancy and user protection.
