@@ -15,3 +15,11 @@ body.is-sample::before{
 body.is-sample:not([data-watermark])::before{
   content:"SAMPLE";
 }
+
+/* Hide watermark by default when printing; allow opt-in via data-print="1" */
+@media print{
+  body.is-sample::before{ display:none !important; }
+}
+@media print{
+  body.is-sample[data-print="1"]::before{ display:flex !important; }
+}
