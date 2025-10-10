@@ -1,0 +1,4 @@
+# Ignore patterns for boundary check false positives
+docs/**/*.md
+**/*.png
+**/*.svg

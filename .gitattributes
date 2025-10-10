@@ -2,7 +2,5 @@
 *.ps1 text eol=crlf
 *.bat text eol=crlf
 *.sh  text eol=lf
-
-
-
 docs/**/*.md text eol=lf
+*.zip filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,9 @@
+{
+  "intent": "Demo CoPayload compiled from AgentKit graph",
+  "version": "1.0.0",
+  "provenance": "examples/agentkit/invoice-qa.ak.json",
+  "risks": [
+    "none (stub)"
+  ],
+  "budget_usd_max": 0.0
+}

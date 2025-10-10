@@ -1,0 +1,13 @@
+{
+  "steps": [
+    {
+      "id": "plan",
+      "type": "noop"
+    },
+    {
+      "id": "execute",
+      "type": "script",
+      "script": "payload/run.ps1"
+    }
+  ]
+}
