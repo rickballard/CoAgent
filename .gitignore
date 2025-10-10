@@ -12,3 +12,4 @@ docs/status/bpoe-log.ndjson
 _vendor/
 
 *.sln
+!_packages/*.zip
