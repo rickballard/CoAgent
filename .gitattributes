@@ -1,8 +1,4 @@
-* text=auto
-*.ps1 text eol=crlf
-*.bat text eol=crlf
-*.sh  text eol=lf
-
-
-
-docs/**/*.md text eol=lf
+# Make the repo nicer for humans: down-rank ops & CI in stats and browsing
+ops/**/* linguist-generated=true
+.github/**/* linguist-generated=true
+docs/**/* linguist-documentation=true

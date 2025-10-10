@@ -1,0 +1,22 @@
+# CoAgent boundary rules (CI-enforced)
+version: 1
+rules:
+  - id: no_secrets_in_vendor_context
+    description: Prohibit placing production secrets into vendor LLM contexts
+    enforce: error
+    patterns:
+      - "OPENAI_API_KEY"
+      - "AZURE_OPENAI_KEY"
+      - "AWS_SECRET_ACCESS_KEY"
+  - id: no_vendor_side_effects
+    description: Vendor canvases/agents may not execute production side effects
+    enforce: error
+  - id: replay_or_no_deploy
+    description: Block release if replay bundle missing or unsigned
+    enforce: error
+  - id: model_swap_ready
+    description: Changes must not reduce model-swap readiness below threshold
+    enforce: warn
+thresholds:
+  replay_coverage_percent_min: 99
+  swap_time_p95_minutes_max: 60

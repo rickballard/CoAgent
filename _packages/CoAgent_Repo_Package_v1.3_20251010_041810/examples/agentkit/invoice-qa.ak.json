@@ -1,0 +1,29 @@
+{
+  "nodes": [
+    {
+      "id": "start",
+      "type": "input",
+      "note": "User asks invoice question"
+    },
+    {
+      "id": "llm_plan",
+      "type": "plan",
+      "note": "LLM drafts steps (PLAN-ONLY)"
+    },
+    {
+      "id": "handoff",
+      "type": "call",
+      "note": "Send to CoAgent for execution"
+    }
+  ],
+  "edges": [
+    [
+      "start",
+      "llm_plan"
+    ],
+    [
+      "llm_plan",
+      "handoff"
+    ]
+  ]
+}
